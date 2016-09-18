@@ -1,0 +1,461 @@
+/*头部开始   */
+body{
+    /*background: url(../imgs/trang-l.png);*/
+}
+.header {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 10px solid #e42338;
+    background-color: #fff;
+
+}
+
+.nav {
+    height: 42px;
+    text-align: center;
+
+}
+
+.nav ul {
+    width: 461px;
+    height: 81px;
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+}
+.nav ul li{
+    float: left;
+    line-height: 46px;
+}
+.nav li a.link1{
+    display: block;
+    padding: 0 18px;
+    font-size: 15px;
+    color: #626262;
+}
+/*content部分开始*/
+.content{
+    padding: 80px 0 0 0;
+    height: 620px;
+    text-align: center;
+}
+.content .join-us-ul{
+    /*height: 72px;*/
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    /*top: -50px;*/
+    /*display: none;*/
+}
+.content .join-us-ul li{
+    position: absolute;
+    opacity: 0;
+}
+.content .join-us-ul h3{
+    width: 85px;
+    padding: 0 10px;
+}
+.content .join-us-ul em{
+    height: 30px;
+    width: 89px;
+    display: block;
+}
+.content .join-us-l{
+    left: -105px;
+    top: -50px;
+    /*top: 0px;*/
+    cursor: pointer;
+
+}
+.content .join-us-r{
+    left: 10px;
+    top: -50px;
+    /*top: 0px;*/
+
+    color: #E42338;
+    cursor: pointer;
+
+}
+.content .page1{
+    margin-top: 20px;
+    height: 456px;
+    background-color: #3F3F3F;
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+}
+.page1 ul li{
+    /*position: absolute;*/
+    float: left;
+    /*left:0;*/
+    display: none;
+    overflow: hidden;
+}
+
+.page1 .page-pic img{
+    max-width: 40%;
+    margin-top: 20px;
+    transition: all 1s;
+    position: absolute;
+    left: 406px;
+    top: -500px;
+}
+.page1 .page-pic img:hover{
+    max-width: 50%;
+    left: 350px;
+}
+.page1 .page-l{
+    float: left;
+    width: 400px;
+    left: 100px;
+    top: 64px;
+    position: absolute;
+}
+
+
+.page1 .page-r{
+    float: right;
+    width: 500px;
+    position: absolute;
+    left: 700px;
+    top: 64px;
+}
+.page1 .page-r h3{
+    color: #E42338;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.page1 .page-r .page-r-p2{
+   text-indent: 2em;
+}
+
+
+
+
+/*小米轮播图*/
+/*.xiaomi{*/
+    /*width: 992px;*/
+    /*height: 420px;*/
+    /*margin: 100px auto;*/
+    /*position: relative;*/
+    /*margin-top: 16px;*/
+
+/*}*/
+.box{
+    width: 1350px;
+    height: 450px;
+    margin: 100px auto;
+    position: relative;
+    margin-top: 16px;
+    display: none;
+
+}
+.box ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box ul li img{
+    width: 1350px;
+    height: 450px;
+}
+.box ul li{
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.box ol{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    z-index: 1000;
+}
+.box ol li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: #7C7575;
+    border: 1px solid #3A3636;
+    background: rgba(0, 0, 0, 0.3);
+    margin: 2px 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 20px;
+}
+.box ol li.current{
+    background: rgba(0, 0, 0, 0.6);
+    color: #0CF344;
+}
+.left,.right{
+    width: 41px;
+    height: 420px;
+    position: absolute;
+    top: 0;
+    background: url(../img1/arr.png) no-repeat left center;
+    z-index: 999;
+}
+.left{
+    background-position: -84px center;
+    left: 0;
+}
+.right{
+    right: 0;
+    background-position: -125px center;
+}
+.left:hover{
+    background-position: left center;
+}
+.right:hover{
+    background-position: -42px center;
+}
+
+
+
+/*小米轮播图*/
+
+/*content-two开始*/
+.content-two{
+    height: 456px;
+    background-color: #E42338;
+    margin-top: 49px;
+    /*overflow: hidden;*/
+}
+.content-two .service{
+    text-align: center;
+}
+.content-two .service .service-content{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    top: -82px;
+    height: 100px;
+    /*overflow: hidden;*/
+}
+.content-two .service-content li{
+    position: absolute;
+    /*opacity: 0;*/
+}
+.content-two .service-content h3{
+    width: 85px;
+    padding: 0 10px;
+}
+.content-two .service-content em{
+    height: 30px;
+    width: 97px;
+    display: block;
+}
+.content-two .join-us-l{
+    /*left: 360px;*/
+    left: -93px;
+    top: 0px;
+    cursor: pointer;
+}
+.content-two .join-us-r{
+    /*left: 470px;*/
+    left: 11px;
+    top: 0px;
+    color: #E42338;
+    cursor: pointer;
+}
+.content-two .page2{
+    color: #fff;
+    font-size: 28px;
+    margin-top: -28px;
+    cursor: pointer;
+    position: relative;
+}
+.content-two .page2 span{
+    /*position: absolute;*/
+    margin:0 5px;
+    opacity: 0.6;
+    transition: margin 0.75s ease-in 0s,font-size 0.75s ease-in 0s;
+}
+.content-two .page2:hover span{
+    margin:0 25px;
+    opacity: 1;
+
+}
+
+
+.service-list{
+    margin-top: 90px;
+    position: relative;
+}
+.service-list li{
+    float: left;
+    margin: 10px;
+    position: absolute;
+    /*top: 0;*/
+    top: 400px;
+    cursor: pointer;
+}
+.service-list-1{
+    /*left: 71px;*/
+}
+.service-list-2{
+    /*left: 384px;*/
+}
+.service-list-3{
+    /*left: 697px;*/
+}
+.service-list-4{
+    /*left: 990px;*/
+}
+.service-list li img{
+    max-width: 69%;
+    /*width: 154px;*/
+    /*height: 154px;*/
+    transition: transform 0.75s ease-in 0s;
+}
+.service-list li h3{
+    color:#fff;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.service-list-1:hover img{
+    transform: rotateY(360deg);
+    /*width: 154px;*/
+    /*height: 154px;*/
+    /*background: url(../imgs/s-ico1-on.png);*/
+    
+}
+.service-list-2:hover img{
+    transform: rotateY(360deg);
+}
+.service-list-3:hover img{
+    transform: rotateY(360deg);
+}
+.service-list-4:hover img{
+    transform: rotateY(360deg);
+}
+.service-list li div{
+    color: #fff;
+    width: 300px;
+    height: 80px;
+    font-size: 12px;
+    display: none;
+}
+
+.window {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    margin :100px auto;
+    top: 350px;
+    left: 1300px;
+
+}
+
+.window li{
+    width: 45px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgba(204, 204, 204,0.5);
+
+    /*opacity: 0.5;*/
+    box-shadow: 0 3px 0 yellowgreen ;
+    color: #fff;
+    cursor: pointer;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 1s;
+
+    transform-origin: left top;
+    transform-origin: right top;
+}
+.window:hover{
+    /*left: 1000px;*/
+}
+.window:hover li:nth-child(1) {
+    transform: rotate(60deg);
+}
+
+.window:hover li:nth-child(2) {
+    transform: rotate(120deg);
+}
+
+.window:hover li:nth-child(3) {
+    transform: rotate(180deg);
+}
+
+.window:hover li:nth-child(4) {
+    transform: rotate(240deg);
+}
+
+.window:hover li:nth-child(5) {
+    transform: rotate(300deg);
+}
+
+.box:hover li:nth-child(6) {
+    transform: rotate(360deg);
+}
+
+.content-two-r{
+    margin-top: -104px;
+    height: 680px;
+    background-color: #ccc;
+    display: none;
+    overflow: hidden;
+}
+.content-two-r ul{
+    width: 1500px;
+    height: 700px;
+    position: relative;
+}
+
+.content-two-r ul li{
+    float: left;
+    margin:0px 8px;
+    margin-top: 18px;
+    width: 320px;
+    height: 200px;
+    position: relative;
+
+}
+
+.content-two-r ul img{
+    width: 320px;
+    height: 200px;
+    /*position: absolute;*/
+}
+.currnt-div{
+    width: 320px;
+    height: 200px;
+    background-color: #333;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #E42338;
+    text-align: center;
+    line-height: 200px;
+    font-size: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

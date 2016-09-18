@@ -1,0 +1,431 @@
+﻿
+@media only screen and (max-height: 900px),screen and (max-width: 959px) {
+
+	/*******************************
+		-------[=背景画布]-------
+	********************************/
+	.canvas{top: 200px;}
+
+	/*******************************
+		-------[=底部]-------
+	********************************/
+	#fd{padding: 20px 0;font-size: 16px;}
+
+	.g-top{top: 80px;}
+	.g-con{padding-top: 120px;}
+
+	/*******************************
+		-------[=服务内容]-------
+	********************************/
+	.m-service .g-tit1{margin-bottom: 100px;}
+
+	/*******************************
+		-------[=联系我们]-------
+	********************************/
+	#page4 .g-con{padding: 120px 0 90px;}
+
+	/*******************************
+		-------[=加入我们]-------
+	********************************/
+	.m-join .intro{margin-bottom: 20px;}
+
+	.m-list7{font-size: 16px;}
+	.m-list7 li{line-height: 40px;}
+	.m-list7 h4{font-size: 16px;}
+
+	/*核心优势*/
+	.coreBox{
+		width: 60%;
+		/*zoom: .7;
+		-moz-margin: -80px 0;
+		-moz-transform:scale(.7);*/
+	}
+
+	/*******************************
+		-------[=内页]-------
+	********************************/
+	.cur_tit{height: auto;padding: 20px 0;}
+	.cur_tit h3{font-size: 20px;}
+	.cur_tit h3 em{font-size: 14px;}
+
+	.g-cont{top: 91px;box-shadow: 0 0 5px #ddd;}
+	.m-article{padding: 20px 0;font-size: 14px;}
+	.m-article h1{margin-bottom: 10px;}
+	.m-article .info{margin-bottom: 20px;}
+
+}
+
+
+@media only screen and (max-height: 800px),screen and (max-width: 959px){
+	/*******************************
+		-------[=背景画布]-------
+	********************************/
+	.canvas{top: 160px;}
+
+	/*******************************
+		-------[=滚屏]-------
+	********************************/
+
+	.g-top{line-height: 30px;top: 80px;}
+	.g-top h3{font-size: 20px;padding: 0 10px;}
+	.g-top h3:after, .g-top h3 em:after{height: 20px;border-width: 2px;}
+	.g-top h3 em:after{margin-left: 10px;margin-top: -10px;}
+
+	.g-con{/*padding-top: 150px;*/padding-top: 80px;}
+	#page4 .g-con{/*padding: 150px 0 80px;*/padding: 80px 0;}
+
+	/*******************************
+		-------[=海天印象]-------
+	********************************/
+	.m-about .right{margin-top: 20px;}
+
+	/*******************************
+		-------[=发展历程]-------
+	********************************/
+	.m-list1 .front{/*top: 10%;*/}
+
+	/*******************************
+		-------[=服务内容]-------
+	********************************/
+	.m-list2 .ico{margin-bottom: 10px;}
+	.m-list2 h5{font-size: 16px;}
+	.m-list2 .det{font-weight: normal;}
+
+}
+
+@media only screen and (max-height: 700px),screen and (max-width: 959px){
+
+	/*******************************
+		-------[=海天印象]-------
+	********************************/
+	.m-about .item h3 img{max-height: 400px;}
+	.m-join .intro p{padding-bottom: 10px;}
+
+	/*******************************
+		-------[=发展历程]-------
+	********************************/
+	.m-list1 .back{font-size: 12px;}
+	.m-list1 .back .det{font-weight: normal;}
+	.m-list1 h5{font-size: 16px;}
+
+	/*******************************
+		-------[=服务内容]-------
+	********************************/
+	.m-service .g-tit1{margin-bottom: 85px;}
+	.m-list2 .ico{width: 120px;height: 120px;}
+	.m-list2{margin: 0;}
+
+	/*******************************
+		-------[=海天讯息]-------
+	********************************/
+	.m-news{font-size: 12px;}
+	.m-news-l .pic{margin-bottom: 10px;}
+	.m-news-l .tit{margin-bottom: 5px;}
+	.m-news-l h4{font-size: 14px;}
+	.m-news-l .time{font-size: 12px;}
+	.m-news-l .det{font-size: 12px;}
+
+	/*.m-list4 .tit{margin-bottom: 5px;}
+	.m-list4 h4{font-size: 16px;}*/
+	.m-list4 .det{/*font-size: 12px;*/line-height: 1.5;height: 3em;}
+	/*.m-list4 .time{font-size: 12px;}*/
+
+	/*******************************
+		-------[=重大事迹]-------
+	********************************/
+	.m-list5 h4{font-size: 14px;margin-bottom: 10px;}
+	.g-btn2{font-size: 12px;}
+
+	/*******************************
+		-------[=联系我们]-------
+	********************************/
+	.m-list6 li{margin: 10px 0;}
+	.m-list6 .con{padding: 10px;}
+
+	.m-list6 h4{font-size: 14px;}
+	.m-list6 .con > div{line-height: 20px;
+		background-position: 0 0;
+		-o-background-size: 20px auto;
+		-ms-background-size: 20px auto;
+		-moz-background-size: 20px auto;
+		-webkit-background-size: 20px auto;
+		background-size: 20px auto;
+	}
+
+	/*******************************
+		-------[=加入我们]-------
+	********************************/
+	.m-join .intro{font-size: 12px;line-height: 1.5;}
+	.m-join .intro h4{font-size: 16px;}
+	.m-join .intro b{font-size: 14px;}
+
+	.m-list7 li{padding-left: 10px;}
+
+	/*******************************
+		-------[=底部]-------
+	********************************/
+	#fd{padding: 10px 0;font-size: 12px;}
+	.g-cont #bd{padding-bottom: 60px;}
+
+	/*核心优势*/
+	.coreBox{/*zoom: .5;*/}
+	
+}
+
+@media only screen and (max-height: 579px),screen and (max-width: 959px){
+
+	
+	/*******************************
+		-------[=背景画布]-------
+	********************************/
+	.canvas{top: 100px;}
+
+	/*******************************
+		-------[=滚屏]-------
+	********************************/
+	.g-tit1{font-size: 18px;}
+	.g-top{top: 0;padding: 20px 0;position: relative;overflow: hidden;}
+	.g-top h3{font-size: 16px;}
+	.g-top h3 em{font-size: 12px;}
+
+	.m-service .g-tit1{margin-bottom: 50px;}
+	.g-con{padding: 20px 0;overflow: hidden;}
+	#page4 .g-con{padding: 20px 0 100px;}
+
+	/*******************************
+		-------[=发展历程]-------
+	********************************/
+	.index .m-history,.index .m-partner{margin: -20px 0;}
+
+
+	/*******************************
+		-------[=海天印象]-------
+	********************************/
+	.m-about .tit{font-size: 12px;height: 50px;
+		-o-background-size: auto 100%;
+		-ms-background-size: auto 100%;
+		-moz-background-size: auto 100%;
+		-webkit-background-size: auto 100%;
+		background-size: auto 100%;
+	}
+	.m-about .tit span{font-size: 16px;line-height: 50px;width: 90px;}
+	.m-about .tit p{padding: 5px;margin-left: 110px;}
+
+	.m-about .right h4{font-size: 16px;}
+	.m-about .det{font-size: 12px;line-height: 2;}
+	.m-about .det b{font-size: 14px;}
+	.m-about .det h5{font-size: 12px;}
+
+	
+
+	/*******************************
+		-------[=内页]-------
+	********************************/
+	#bd .g-con{top: 123px;}
+	#bd .canvas{top: 123px;}
+
+}
+
+
+@media only screen and (max-width: 1500px) {
+
+	.m-about .tit span{font-size: 18px;}
+	.m-about .tit p{margin-left: 135px;font-size: 12px;}
+	.m-about .right h4{font-size: 18px;}
+	.m-about .det{font-size: 12px;}
+	.m-about .det b{font-size: 14px;}
+	.m-about .det h5{font-size: 13px;}
+
+}
+
+@media only screen and (max-width: 1250px) {
+
+	/*******************************
+		-------[=发展历程]-------
+	********************************/
+	.m-list1 .back{font-size: 14px;}
+	.m-list1 .back .det{font-weight: normal;}
+	.m-list1 h5{font-size: 20px;}
+
+	/*******************************
+		-------[=服务内容]-------
+	********************************/
+	.m-list2 .ico{/*width: 180px;height: 180px;*/}
+
+	/*******************************
+		-------[=海天印象]-------
+	********************************/
+	.m-about .right{width: 59%;}
+	.m-news .right{width: 59%;}
+
+}
+
+@media only screen and (max-width: 959px) {
+
+	/*******************************
+		-------[=背景画布]-------
+	********************************/
+	#container{position: fixed;right: 0;top: 0;bottom: 0;left: 0;}
+
+	/*******************************
+		-------[=底部]-------
+	********************************/
+	#page4 #fd{position: relative;z-index: 2;}	
+
+	/*******************************
+		-------[=发展历程]-------
+	********************************/
+	.m-list1{height: auto;background-color: #fff;}
+	.m-list1 li{width: 33.333%;height: 200px;}
+	#banner .txt h1 img{max-width: 90%;}
+
+	/*******************************
+		-------[=海天印象]-------
+	********************************/
+	.m-about .left,.m-about .right{float: none;width: auto;max-width: 565px;margin: 0 auto;}
+	.m-about .left{margin: 0 auto 20px;}
+	.m-about-txt{position: static;
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-o-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+	}
+	.m-core-txt{position: absolute;left: 0;right: 0;top: 50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+
+	/*******************************
+		-------[=合作伙伴]-------
+	********************************/
+	.m-list3{height: auto;background-color: #fff;}
+	.m-list3 li{height: 200px;}
+
+	/*******************************
+		-------[=海天讯息]-------
+	********************************/
+	.m-news .left,.m-news .right{float: none;width: auto;}
+
+	/*******************************
+		-------[=服务内容]-------
+	********************************/
+	.m-list2 li{width: 50%;margin-bottom: 20px;}
+	.m-list2 h5{font-size: 14px;position: relative;z-index: 9;}
+
+	/*******************************
+		-------[=联系我们]-------
+	********************************/
+	.m-list6 li,.m-list6 li:last-child{width: 50%;}
+	
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	/*******************************
+		-------[=导航]-------
+	********************************/
+	.m-nav{display: block;}
+	#nav ul{display: none;position: absolute;left: 0;right: 0;top: 100%;padding-top: 20px;
+		background-color: rgba(255,255,255,.8);margin-top: 10px;
+	}
+	#nav li{float: none;border-bottom: 1px solid rgba(255,255,255,.5);}
+	#nav li:nth-child(3){display: none;}
+
+	/*******************************
+		-------[=海天印象]-------
+	********************************/
+	.m-about h3 img{max-width: 80%;}
+
+	/*******************************
+		-------[=发展历程]-------
+	********************************/
+	.m-list1 li{width: 50%;height: 150px;}
+	.m-list1 .front{/*top: 20%;*/margin-top: -24px;}
+	.m-list1 h5{font-size: 16px;}
+
+	/*******************************
+		-------[=合作伙伴]-------
+	********************************/
+	.m-list3 li{width: 50%;height: 150px;}
+
+	/*******************************
+		-------[=服务内容]-------
+	********************************/
+	.m-list2 li{float: none;width: auto;}
+
+	/*******************************
+		-------[=重大事迹]-------
+	********************************/
+	.m-list5 li{float: none;width: auto;margin-bottom: 20px;}
+
+	/*******************************
+		-------[=联系我们]-------
+	********************************/
+	#page4 .g-con{padding: 20px 0;}
+	.m-list6 li,.m-list6 li:last-child{float: none;width: auto;}
+
+	.m-list7 h4,.m-list7 .info{float: none;}
+	.m-list7 .info{border-top: 1px solid rgba(255,255,255,.1);}
+
+	/*核心优势*/
+	.coreBox{/*zoom: .3;*/ width: auto;margin: 0 -45%;}
+	.coreBox .bot{display: none;}
+
+	.side-col{width: auto;float: none;margin-bottom: 20px;}
+	.main-col{margin-left: 0;}
+	.g-tit2{font-size: 18px;}
+	.g-tit2 em{font-size: 12px;}
+	.snv{font-size: 14px;}
+	.snv li a,.snv li.on a{
+		-o-background-size: 6px auto;
+		-ms-background-size: 6px auto;
+		-moz-background-size: 6px auto;
+		-webkit-background-size: 6px auto;
+		background-size: 6px auto;
+	}
+
+	.m-txt1 h3{font-size: 14px;}
+	.m-txt1 dl{font-size: 12px;}
+
+}
+
+@media only screen and (max-width: 479px) {
+
+	/*******************************
+		-------[=发展历程]-------
+	********************************/
+	.m-list1 li{float: none;width: auto;}
+	.m-list1 li:first-child{border-top: 1px solid #f4f3f4;}
+	.m-list1 li:last-child{border-bottom: 1px solid #f4f3f4;}
+
+	/*******************************
+		-------[=服务内容]-------
+	********************************/
+	.m-list2 li{float: none;width: auto;}
+
+
+	/*******************************
+		-------[=合作伙伴]-------
+	********************************/
+	.m-partner{border-top: 1px solid #f4f3f4;border-bottom: 1px solid #f4f3f4;}
+	.m-list3 li{height: 100px;}
+
+	/*******************************
+		-------[=加入我们]-------
+	********************************/
+	.m-list7{font-size: 14px;}
+	.m-list4 .tit,.m-list4 .det{padding-left: 15px;}
+	.m-list4 .tit:before{width: 5px;height: 1px;}
+
+	/*******************************
+		-------[=海天讯息]-------
+	********************************/
+	.m-list4 h4{font-size: 14px;}
+
+}

@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>北京网站建设,北京网站制作,北京网站设计 - 信达互联</title>
+	<!--css引入 start-->
+	<link rel="stylesheet" media="screen and (max-width:415px)" href="statics/css/mobbile.css"/>
+	<link rel="stylesheet" media="screen and (max-width:736px)" href="statics/css/bug.css"/>
+	<link rel="stylesheet" href="statics/css/cui.css"/>
+	<link rel="stylesheet" href="statics/css/style.css"/>
+	<link rel="stylesheet" href="statics/css/layerslider.css"/>
+	<link rel="stylesheet" href="statics/css/skin.css"/>
+	<link rel="stylesheet" href="statics/css/less.css"/>
+	<link rel="stylesheet" href="statics/css/animate.css"/>
+	<!--css引入 end-->
+
+	<!--js引入 start-->
+	<script type="text/javascript" src="statics/js/jquery.js"></script>
+	<script type="text/javascript" src="statics/js/slider.js"></script>
+	<script type="text/javascript" src="statics/js/banner.js"></script>
+	<!--js引入 end-->
+
+</head>
+
+<body class="home  rouge  Chrome">
+
+<div class="m-hd">
+
+	<div class="m-bar">
+
+		<a href="/" class="logo-m"><img src="statics/images/logo-m.png" alt=""></a>
+
+		<strong class="mobileTitle">首页</strong>
+
+		<button id="open-button" class="menu-button">Menu</button>
+
+	</div>
+
+	<div class="menu-wrap menu-mobile">
+
+		<nav class="menu">
+
+			<div class="icon-list-menu">
+
+				<div class="menu-menu-principal-container">
+
+					<ul id="menu-menu-principal" class="nav-menu">
+
+
+						<li><a href="/">首页</a>
+
+							<ul class="sub-menu">
+
+								<li><a href="/" target="_blank">关于</a></li>
+
+								<li><a href="/" target="_blank">服务</a></li>
+
+								<li><a href="/" target="_blank">案例</a></li>
+
+								<li><a href="/" target="_blank">帮助</a></li>
+
+								<li><a href="/" target="_blank">观点</a></li>
+
+								<li><a href="/" target="_blank">人才</a></li>
+
+								<li><a href="/" target="_blank">联系</a></li>
+
+							</ul>
+
+						</li>
+
+
+					</ul>
+
+				</div>
+
+			</div>
+
+		</nav>
+
+		<div class="morph-shape" id="morph-shape"
+			 data-morph-open="M-7.312,0H15c0,0,66,113.339,66,399.5C81,664.006,15,800,15,800H-7.312V0z;M-7.312,0H100c0,0,0,113.839,0,400c0,264.506,0,400,0,400H-7.312V0z">
+
+			<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 100 800"
+				 preserveaspectratio="none">
+				<path d="M-7.312,0C-7.312,0,100,0,100,0C100,0,100,113.839,100,400C100,664.506,100,800,100,800C100,800,-7.312,800,-7.312,800C-7.312,800,-7.312,0,-7.312,0C-7.312,0,-7.312,0,-7.312,0"></path>
+				<desc>Created with Snap</desc>
+				<defs></defs>
+			</svg>
+
+		</div>
+
+	</div>
+
+</div>
+
+<!-- [end mobile hd] -->
+
+<div id="main" class="site-main">
+
+	<div id="main_title" class="main-content">
+
+		<div id="mastheadContainer">
+
+			<header id="masthead" class="site-header" role="banner">
+
+				<div class="wp">
+
+					<div class="SVGLogoContainer">
+
+						<div class="logo" id="logoLink">
+							<a href="">
+								<img src="statics/images/logo.png" alt="">
+							</a>
+						</div>
+
+					</div>
+
+					<strong class="mobileTitle"></strong>
+					<nav role="navigation" id="mainNav">
+
+						<div class="menu-menu-principal-container" role="navigation" id="mainNav">
+
+							<ul id="menu-menu-principal-1" class="nav-menu">
+
+								<li>
+									<a href="/" class="v1">首页</a></li>
+
+
+								<li><a href="/html/guanyu/" class="v1" target="_blank">关于</a>
+
+
+								</li>
+
+
+								<li><a href="/html/fuwu/" class="v1" target="_blank">服务</a>
+
+
+								</li>
+
+
+								<li><a href="/html/anli/" class="v1" target="_blank">案例</a>
+
+
+								</li>
+
+
+								<li><a href="/html/bangzhu/" class="v1" target="_blank">帮助</a>
+
+
+								</li>
+
+
+								<li><a href="/html/xindahulianguandian/" class="v1" target="_blank">观点</a>
+
+
+								</li>
+
+
+								<li><a href="/html/rencai/" class="v1" target="_blank">人才</a>
+
+
+								</li>
+
+
+								<li><a href="/html/lianxi/" class="v1" target="_blank">联系</a>
+
+
+								</li>
+
+
+							</ul>
+
+						</div>
+
+					</nav>
+
+					<div class="c"></div>
+
+				</div>
+
+				<!-- /.wp -->
+
+				<div class="c"></div>
+
+			</header>
+
+		</div>
+
+		<!-- /#hd -->
+
+		<div id="banner">
+
+			<video id="video" preload="auto" autoplay loop>
+
+
+				<source class="mp4" src="statics/video/video1.mp4?v=2014" type="video/mp4">
+
+
+			</video>
+
+			<div class="banner-bg"></div>
+
+			<div class="banner-box">
+
+				<div class="banner-txt">
+
+					<div class="tit">
+						<h3>网站建设</h3>
+						<h5>致力于让每一个用户 信任而至，达意而归！</h5>
+					</div>
+
+					<div class="sub-snv">
+						<a href="javascript:void(0)" target="_blank">网站策划</a> /
+						<a href="javascript:void(0)" target="_blank">网站设计</a> /
+						<a href="javascript:void(0)" target="_blank">互动与制作</a> /
+						<a href="javascript:void(0)" target="_blank">程序开发</a> /
+						<a href="javascript:void(0)" target="_blank">微信服务</a> /
+						<a href="javascript:void(0)" target="_blank">APP</a> /
+						<a href="javascript:void(0)" target="_blank">手机网站</a> /
+						<a href="javascript:void(0)">网站安全运维</a> /
+						<a href="javascript:void(0)" target="_blank">网络营销</a> /
+						<a href="javascript:void(0)" target="_blank">展览展示</a>
+					</div>
+
+					<div class="arrow">
+						<a href="#primary"></a>
+						<!--<a href="#service-i"></a>-->
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- /#banner -->
+
+
+	</div>
+
+	<div id="menu_twice">
+
+		<div class="container">
+
+			<div class="cropper">
+
+				<div class="SVGLogoContainer">
+
+					<a rel="nofollow" id="logoLink_twice" href="" title="MIKII">
+						<div class="clicker"></div>
+						<img src="statics/images/logo2.jpg" id="logoHeader_twice" alt="">
+					</a>
+
+				</div>
+
+			</div>
+
+			<nav role="navigation" id="mainNav_twice">
+
+				<div class="menu-menu-principal-container">
+
+					<ul id="menu-menu-principal-2" class="nav-menu">
+
+						<li><a href="/">首页</a></li>
+
+
+						<li><a href="/" target="_blank">关于</a>
+
+
+						</li>
+
+
+						<li><a href="/" target="_blank">服务</a>
+
+
+						</li>
+
+
+						<li><a href="/" target="_blank">案例</a>
+
+
+						</li>
+
+
+						<li><a href="/" target="_blank">帮助</a>
+
+
+						</li>
+
+
+						<li><a href="/" target="_blank">观点</a>
+
+
+						</li>
+
+
+						<li><a href="/" target="_blank">人才</a>
+
+
+						</li>
+
+
+						<li><a href="/" target="_blank">联系</a>
+
+
+						</li>
+
+
+					</ul>
+
+				</div>
+
+			</nav>
+
+		</div>
+
+	</div>
+
+	<div id="primary" class="content-area noPad">
+
+		<div class="service-i scroll" id="service-i">
+
+			<div class="wp">
+
+				<div class="service-top">
+
+					<h3>我们的<em>服务</em><span>our service</span></h3>
+
+					<div class="txt">
+
+						信任而至，达意而归&mdash;&mdash;是为信达互联；热情、专业、执着、正直、才华洋溢&mdash;&mdash;是为信达互联的团队气质；公司通过多年的努力，现已成为中国互联网资深服务商；我们秉承&ldquo;帮助客户创造价值&rdquo;的理念，致力于信息化建设及品牌营销领域，提供网站策划、网站设计、互动与制作、程序开发、微信公众号定制开发、APP原生开发、手机网站、网站运维、云服务解决方案及展览展示服务，我们从不认为自己是最好的互联网服务商，但却始终为一流的品牌客户服务。
+					</div>
+
+				</div>
+
+				<div class="serviceshome" id="scroll">
+
+					<a href="javascript:void(0)" class="rouge" target="_blank">
+
+						<div class="services siteinternet">
+
+							<div class="img">
+
+								<div class="rocket">
+
+									<img src="statics/images/icon-rocket.png" height="120" width="120" alt=""
+										 class=" lazyloaded">
+
+									<img class="fire" src="statics/images/icon-rocket-fire.svg" height="38" width="33"
+										 alt="">
+
+								</div>
+
+								<div class="space"></div>
+
+							</div>
+
+							<h2 class="rouge">网站定制开发</h2>
+
+							<p class="index_fuwu">
+
+								<a href="javascript:void(0)" target="_blank">H5响应式网站定制开发</a><br/>
+								<a href="javascript:void(0)" target="_blank">集团企业品牌产品营销</a><br/>
+								<a href="javascript:void(0)" target="_blank">电子商务订购网站开发</a><br/>
+								<a href="javascript:void(0)" target="_blank">政府/学校教育培训平台</a><br/>
+							</p>
+
+						</div>
+
+					</a>
+					<a href="javascript:void(0)" class="bleu" target="_blank">
+
+						<div class="services referencement">
+
+							<div class="img">
+
+								<img src="statics/images/icon-glove.png" height="150" width="86" alt=""
+									 class=" lazyloaded">
+
+							</div>
+
+							<h2 class="bleu">移动新媒体开发</h2>
+
+							<p>
+
+								<a href="/html/fuwu/appkaifa/" style="color: #747c83;" target="_blank">APP定制开发</a><br/>
+								<a href="/html/fuwu/weixindingzhikaifa/" style="color: #747c83;"
+								   target="_blank">微信定制开发</a><br/>
+								<a href="/html/fuwu/shoujiwangzhanjianshe/" style="color: #747c83;"
+								   target="_blank">手机网站开发</a><br/>
+								<a href="javascript:void(0)" style="color: #747c83;">手游定制开发</a>
+
+
+							</p>
+
+						</div>
+
+					</a>
+					<a href="javascript:void(0)" class="vert" target="_blank">
+						<div class="services emarketing">
+							<div class="img">
+
+								<img class="arbre lazyloaded" src="statics/images/icon-tree.png" width="85" height="151" alt="">
+								<img class="pomme_1" src="statics/images/pomme.svg" alt="">
+								<img class="pomme_2" src="statics/images/pomme.svg" alt="">
+								<img class="pomme_3" src="statics/images/pomme.svg" alt="">
+
+							</div>
+							<h2 class="vert">应用系统开发</h2>
+							<p>
+
+								<a href="/html/fuwu/ruanjiankaifa/" style="color: #747c83;"
+								   target="_blank">电子政务平台开发</a><br/>
+								<a href="/html/fuwu/ruanjiankaifa/" style="color: #747c83;"
+								   target="_blank">OA办公系统定制开发</a><br/>
+								<a href="/html/fuwu/ruanjiankaifa/" style="color: #747c83;"
+								   target="_blank">电商库存系统定制开发</a><br/>
+								<a href="/html/fuwu/ruanjiankaifa/" style="color: #747c83;" target="_blank">其他程序定制开发</a>
+
+
+							</p>
+						</div>
+					</a>
+					<a href="javascript:void(0)" class="jaune" target="_blank">
+
+						<div class="services social">
+
+							<div class="img">
+
+								<img class="bell lazyloaded" src="statics/images/icon-bell.png" width="105" height="142"
+									 alt="">
+
+								<img class="ball lazyloaded" src="statics/images/icon-bell-ball.png" width="16"
+									 height="17"
+									 alt="">
+
+							</div>
+
+							<h2 class="jaune">增值服务</h2>
+
+							<p>
+								<a href="javascript:void(0)" style="color: #747c83;">域名 空间 邮箱 服务器</a><br/>
+								<a href="javascript:void(0)" style="color: #747c83;">网站托管运维</a><br/>
+								<a href="javascript:void(0)" style="color: #747c83;">网络营销</a><br/>
+								<a href="javascript:void(0)" style="color: #747c83;">展览展示</a>
+							</p>
+
+						</div>
+
+					</a>
+
+				</div>
+
+			</div>
+
+			<!-- /.wp -->
+
+		</div>
+
+		<!-- /.service-i -->
+
+		<div id="sliderHome">
+
+			<script data-cfasync="false" type="text/javascript">
+
+				$(document).ready(function () {
+
+					$("#layerslider_11").layerSlider({
+						responsive: false,
+						responsiveUnder: 1260,
+						layersContainer: 1260,
+						hideUnder: 1024,
+						startInViewport: false,
+						pauseOnHover: false,
+						randomSlideshow: true,
+						twoWaySlideshow: true,
+						globalBGColor: 'transparent',
+						hoverPrevNext: false,
+						navStartStop: false,
+						navButtons: false,
+						showCircleTimer: false,
+						thumbnailNavigation: 'disabled',
+						autoPlayVideos: false,
+						cbInit: function (element) {
+							jQuery(".showmorelink").each(function () {
+								var color = jQuery(this).css("color");
+								jQuery(this).attr("data-color", color);
+							});
+							jQuery(".showmorelink").css('color', "#FFFFFF").hover(function () {
+								var color = jQuery(this).attr("data-color");
+								jQuery(this).css('color', color);
+							}, function () {
+								jQuery(this).css('color', "#FFFFFF");
+							});
+						},
+						skinsPath: ''
+					})
+				});</script>
+
+			<div id="layerslider_11" class="ls-wp-container ls-container ls-v5"
+				 style="width: 100%; height: 650px; margin: 0px auto; visibility: visible;">
+
+
+				<div class="ls-slide" data-ls="slidedelay:7000;transition2d:5;">
+
+					<img src="statics/images/20160511122256401.jpg" class="ls-bg"
+						 alt="Slide background">
+
+					<p class="ls-l"
+					   style="top: -75px; left: -31.5px; -webkit-background-clip: padding-box; white-space: nowrap; font-size: 18px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); opacity: 0.995986; visibility: visible; filter: none; background: radial-gradient(at 50% 50%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 70%);"
+					   data-ls="offsetxin:0;durationin:2000;">agence web</p>
+
+					<img class="ls-l"
+						 style="top: -1px; left: 137.5px; white-space: nowrap; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(0.99993, -0.01176, 0, 0, 0.01176, 0.99993, 0, 0, 0, 0, 1, -0.002, -4.49355, 0.22468, 0, 1); opacity: 0.977532; visibility: visible; filter: none;"
+						 data-ls="offsetxin:-200;offsetyin:10;durationin:2500;delayin:250;easingin:easeOutExpo;rotatein:-30;offsetyout:-50;durationout:1500;rotateout:30;scalexout:0.9;scaleyout:0.9;"
+						 src="statics/images/20160511122238131.png" alt="">
+
+					<img class="ls-l"
+						 style="top: 120px; left: 133.5px; outline: transparent solid 1px; white-space: nowrap; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(0.99999, 0, -0.00031, 0, 0, 1, 0, 0, 0.00031, 0, 0.99999, -0.00199, -0.36573, 0, 0, 1); opacity: 0.996343; visibility: visible; filter: none;"
+						 data-ls="offsetxin:-100;durationin:2000;easingin:easeOutExpo;rotateyin:5;offsetxout:100;durationout:1500;rotateyout:-5;"
+						 src="statics/images/20160511122131300.png" alt="">
+
+					<img class="ls-l"
+						 style="top: 518px; left: 555.5px; white-space: nowrap; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, -1.34807, 0, 0, 1); opacity: 0.988766; visibility: visible; filter: none;"
+						 data-ls="offsetxin:-120;durationin:2500;easingin:easeOutExpo;offsetxout:200;durationout:1500;"
+						 src="statics/images/20160518104951762.png" alt="">
+
+					<img class="ls-l"
+						 style="top: 75px; left: 727.5px; white-space: nowrap; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1.06732, 0.01255, 0, 0, -0.01255, 1.06732, 0, 0, 0, 0, 1, -0.002, 6.74033, 0.67403, 0, 1); opacity: 0.977532; visibility: visible; filter: none;"
+						 data-ls="offsetxin:300;offsetyin:30;durationin:2500;delayin:250;easingin:easeOutExpo;rotatein:30;scalexin:4;scaleyin:4;offsetxout:200;offsetyout:50;durationout:1500;rotateout:-30;"
+						 src="statics/images/20160511041626378.png" alt="">
+
+					<img class="ls-l"
+						 style="top: 157px; left: 971.5px; white-space: nowrap;  padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% top 0px; transform: matrix3d(1, 0, 0, 0, 0, 0.99313, 0.117, -0.00023, 0, -0.117, 0.99313, -0.00198, 0, 0, 0, 1); opacity: 1.07466; visibility: visible; filter: none;"
+						 data-ls="offsetxin:0;durationin:2000;delayin:1200;easingin:easeOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:80;durationout:1500;"
+						 src="statics/images/20160511112720844.png" alt="">
+
+					<p class="ls-l descTextSlider"
+					   style="top: 261px; left: 971.5px; width: 270px; font-family: open-sans, Helvetica-Neue, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px; color: rgb(255, 255, 255); height: auto; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% top 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, -4.38303, 0, 1); opacity: 0.780849; visibility: visible; filter: none;"
+					   data-ls="offsetxin:0;offsetyin:-20;delayin:1400;easingin:easeOutExpo;transformoriginin:50% top 0;offsetxout:80;durationout:1500;">
+						河北福成五丰食品股份有限公司始创于1998年3月18日，位于河北省三河市燕郊经济技术开发区。曾先后多次获得国家&ldquo;八部委&rdquo;，国家农业部授予的&ldquo;农业产业化重点龙头企业&rdquo;，&ldquo;中国驰名商标&rdquo;等多项殊荣。</p>
+
+					<img class="ls-l"
+						 style="top: 470px; left: -6.5px; white-space: nowrap; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1.02243, -0.00801, 0, 0, 0.00801, 1.02243, 0, 0, 0, 0, 1, -0.002, -6.74033, 0, 0, 1); opacity: 0.977532; visibility: visible; filter: none;"
+						 data-ls="offsetxin:-300;durationin:2500;delayin:250;easingin:easeOutExpo;rotatein:-20;scalexin:2;scaleyin:2;offsetxout:-200;offsetyout:-50;durationout:1500;rotateout:30;"
+						 src="statics/images/20160511034900551.png" alt="">
+
+					<a href="/" target="_blank" class="ls-l"
+					   style="top: 431px; left: 971.5px; display: block; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 35.0642, 0, 0, 1); opacity: 0.561697; visibility: visible; filter: none;"
+					   data-ls="delayin:1500;easingin:easeOutExpo;offsetxout:80;durationout:1500;">
+
+						<p style="font-weight: bold; padding: 20px 30px; font-family: adelle-sans, Helvetica-Neue, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1px; color: rgb(254, 201, 63); border-radius: 45px; white-space: nowrap; width: auto; height: auto; border-width: 0px; background: rgb(255, 255, 255);">
+							访问此网站</p>
+
+					</a>
+
+
+					<img class="ls-l"
+						 style="top: 440px;  left: 1132.5px; white-space: nowrap; width: 35px; height: 24px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 70.1285, 0, 0, 1); opacity: 1; visibility: visible; filter: none;"
+						 data-ls="delayin:1600;easingin:easeOutExpo;offsetxout:80;durationout:1500;"
+						 src="statics/images/20160511040213929.png" alt="">
+
+
+					<img class="ls-l"
+						 style="top: 440px; left: 1180.5px; white-space: nowrap; width: 24px; height: 28px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 80, 0, 0, 1); opacity:1; visibility: visible; filter: none;"
+						 data-ls="delayin:1700;easingin:easeOutExpo;offsetxout:80;durationout:1500;"
+						 src="statics/images/20160511114453148.png" alt="">
+
+
+					<img class="ls-l"
+						 style="top: 440px; left: 1221.5px; white-space: nowrap; width: 26px; height: 27px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 80, 0, 0, 1); opacity: 1; visibility: visible; filter: none;"
+						 data-ls="delayin:1800;easingin:easeOutExpo;offsetxout:80;durationout:1500;"
+						 src="statics/images/20160511114504992.png" alt="">
+
+
+				</div>
+
+
+				<div class="ls-slide" data-ls="slidedelay:7000;transition2d:5;">
+
+					<img src="statics/images/20160511123346765.png" class="ls-bg"
+						 alt="Slide background">
+
+					<p class="ls-l"
+					   style="top: -75px; left: -31.5px; -webkit-background-clip: padding-box; width: 1000px; height: 800px; white-space: nowrap; font-size: 18px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, -80, 0, 0, 1); opacity: 1; visibility: hidden; filter: none; background: radial-gradient(at 50% 50%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 70%);"
+					   data-ls="offsetxin:0;durationin:2000;">agence web</p>
+
+					<img class="ls-l"
+						 style="top: 21px; left: 35.5px; white-space: nowrap; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(0.86602, 0.49999, 0, 0, -0.49999, 0.86602, 0, 0, 0, 0, 1, -0.002, -80, -50, 0, 1); opacity: 1; visibility: hidden; filter: none;"
+						 data-ls="offsetxin:10;offsetyin:100;durationin:2500;delayin:700;easingin:easeOutExpo;rotatein:-40;offsetyout:-50;durationout:2900;rotateout:30;"
+						 src="statics/images/20160511123414509.png" alt="">
+
+					<img class="ls-l"
+						 style="top: 120px; left: 133.5px; outline: transparent solid 1px; white-space: nowrap; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(0.99619, 0, 0.08715, -0.00017, 0, 1, 0, 0, -0.08715, 0, 0.99619, -0.00199, 100, 0, 0, 1); opacity: 1; visibility: hidden; filter: none;"
+						 data-ls="offsetxin:-100;durationin:2000;easingin:easeOutExpo;rotateyin:5;offsetxout:100;durationout:1500;rotateyout:-5;"
+						 src="statics/images/20160511123406985.png" alt="">
+
+					<img class="ls-l"
+						 style="top: 400px; left: 21.5px; white-space: nowrap;padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 200, 0, 0, 1); opacity: 1; visibility: hidden; filter: none;"
+						 data-ls="offsetxin:-180;durationin:2500;easingin:easeOutExpo;offsetxout:200;durationout:1500;"
+						 src="statics/images/20160511033702860.png" alt="">
+
+					<img class="ls-l"
+						 style="top: 275px; left: 706.5px; white-space: nowrap;  padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(0.86602, -0.49999, 0, 0, 0.49999, 0.86602, 0, 0, 0, 0, 1, -0.002, 200, 50, 0, 1); opacity: 1; visibility: hidden; filter: none;"
+						 data-ls="offsetxin:300;offsetyin:30;durationin:3000;delayin:250;easingin:easeOutExpo;rotatein:30;scalexin:4;scaleyin:4;offsetxout:200;offsetyout:50;durationout:1550;rotateout:-30;"
+						 src="statics/images/20160511123445275.png" alt="">
+
+					<img class="ls-l"
+						 style="top: 200px; left: 971.5px; white-space: nowrap;  padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 80, 0, 0, 1); opacity: 1; visibility: hidden; filter: none;"
+						 data-ls="offsetxin:0;durationin:2000;delayin:1200;easingin:easeOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:80;durationout:1500;"
+						 src="statics/images/20160511123510642.png" alt="">
+
+					<p class="ls-l descTextSlider"
+					   style="top: 261px; left: 971.5px; width: 270px; font-family: open-sans, Helvetica-Neue, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 27px; color: rgb(255, 255, 255); height: auto; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 80, 0, 0, 1); opacity: 1; visibility: hidden; filter: none;"
+					   data-ls="offsetxin:0;offsetyin:-20;delayin:1400;easingin:easeOutExpo;transformoriginin:50% top 0;offsetxout:80;durationout:1500;">
+						北京市石景山区图书馆位于石景山区八角南路2号，是政府兴办的综合性公共图书馆。全国文化信息资源共享工程北京市石景山区支中心，&ldquo;首都图书馆联盟&rdquo;成员单位，被文化部评为国家一级图书馆。</p>
+					<a href="http://www.sjstsg.net" target="_blank" class="ls-l"
+					   style="top: 431px; left: 971.5px; display: block; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 80, 0, 0, 1); opacity: 1; visibility: hidden; filter: none;"
+					   data-ls="delayin:1500;easingin:easeOutExpo;offsetxout:80;durationout:1500;">
+
+						<p style="font-weight: bold; padding: 20px 30px; font-family: adelle-sans, Helvetica-Neue, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1px; color: rgb(248, 57, 52); border-radius: 45px; white-space: nowrap; width: auto; height: auto; border-width: 0px; background: rgb(255, 255, 255);">
+							访问此网站</p>
+
+					</a>
+
+
+					<img class="ls-l"
+						 style="top: 440px; left: 1132.5px; white-space: nowrap; width: 35px; height: 24px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 70.1285, 0, 0, 1); opacity: 1; visibility: visible; filter: none;"
+						 data-ls="delayin:1600;easingin:easeOutExpo;offsetxout:80;durationout:1500;"
+						 src="statics/images/20160511040213929.png" alt="">
+
+
+					<img class="ls-l"
+						 style="top: 440px; left: 1180.5px; white-space: nowrap; width: 24px; height: 28px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 80, 0, 0, 1); opacity: 1; visibility: visible; filter: none;"
+						 data-ls="delayin:1700;easingin:easeOutExpo;offsetxout:80;durationout:1500;"
+						 src="statics/images/20160511114453148.png" alt="">
+
+
+					<img class="ls-l"
+						 style="top: 440px; left: 1221.5px; white-space: nowrap; width: 26px; height: 27px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 80, 0, 0, 1); opacity:1; visibility: visible; filter: none;"
+						 data-ls="delayin:1800;easingin:easeOutExpo;offsetxout:80;durationout:1500;"
+						 src="statics/images/20160511114504992.png" alt="">
+
+
+				</div>
+				<div class="ls-loading-container" style="z-index: -1; display: none;">
+
+					<div class="ls-loading-indicator"></div>
+
+				</div>
+
+
+				<div class="ls-shadow">
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- /#layerslider_11 -->
+
+		<div class="c"></div>
+
+		<div id="mban">
+
+			<div><a href=""><img src="statics/images/4.jpg" alt=""></a></div>
+
+			<div><a href=""><img src="statics/images/5.jpg" alt=""></a></div>
+
+			<div><a href=""><img src="statics/images/6.jpg" alt=""></a></div>
+
+		</div>
+
+		<div class="c"></div>
+
+		<div class="partner-i">
+
+			<div class="wp">
+
+				<ul class="ul-img">
+
+
+					<li class="s1">
+
+						<a href="/"
+						   style="background-image:url(statics/images/20160511071210322.jpg)" target="_blank">
+
+                            <span style="background:#146ec5">
+
+                                <b></b><em>北京市天岳律师事务所</em>
+
+                            </span>
+
+						</a>
+
+					</li>
+
+
+					<li class="s2">
+
+						<a href="/"
+						   style="background-image:url(statics/images/20160512102337223.jpg)" target="_blank">
+
+                            <span style="background:#0a5a92">
+
+                                <b></b><em>MEEA-移动自创业联盟</em>
+
+                            </span>
+
+						</a>
+
+					</li>
+
+
+					<li class="s3">
+
+						<a href="/"
+						   style="background-image:url(statics/images/20160531070952659.jpg)" target="_blank">
+
+                            <span style="background:#7eb037">
+
+                                <b></b><em>土龟网·金融学院·APP</em>
+
+                            </span>
+
+						</a>
+
+					</li>
+
+
+					<li class="s4">
+
+						<a href="/"
+						   style="background-image:url(statics/images/20160527024736337.jpg)" target="_blank">
+
+                            <span style="background:#206ab7">
+
+                                <b></b><em>卡普司</em>
+
+                            </span>
+
+						</a>
+
+					</li>
+
+
+					<li class="s5">
+
+						<a href="/"
+						   style="background-image:url(statics/images/20160511055405514.jpg)" target="_blank">
+
+                            <span style="background:#b00a17">
+
+                                <b></b><em>海天众意-专注于体验营销服务</em>
+
+                            </span>
+
+						</a>
+
+					</li>
+
+
+					<li class="s6">
+
+						<a href="/"
+						   style="background-image:url(statics/images/20160531070653452.jpg)" target="_blank">
+
+                            <span style="background:#7ed0f8">
+
+                                <b></b><em>九州云99Cloud官方网站</em>
+
+                            </span>
+
+						</a>
+
+					</li>
+
+
+				</ul>
+
+				<div class="c"></div>
+
+				<div class="more-i"><a href="/" target="_blank">查看更多>></a></div>
+
+			</div>
+
+			<!-- /.wp -->
+
+		</div>
+
+		<!-- /.partner-i -->
+
+	</div>
+
+</div>
+
+<!-- /#bd -->
+
+
+
+<div id="fd">
+
+	<div class="contact-i">
+
+		<div class="wp">
+
+			<div class="tit">
+
+				<h3>您要外包项目吗？</h3>
+
+				<p>如果您有项目要做，并且想找到一支出色的团队来完成，那就赶快和我们联系吧！&nbsp;</p>
+				<h5>咨询热线：010-51581410</h5>
+
+
+			</div>
+
+			<div class="form">
+
+
+				<form method="post" action="/index.php?m=formguide&c=index&a=show&formid=14&siteid=1" name="myform"
+					  id="myform">
+
+
+					<div class="form-l">
+
+						<ul data-animate="fadeInLeft" class="animated">
+
+							<li><input type="text" class="inp" placeholder="联系人" name="info[name]" id="name"></li>
+
+							<li><input type="text" class="inp" placeholder="联系电话" name="info[phone]" id="phone"></li>
+
+							<li><input type="text" class="inp" placeholder="电子邮箱" name="info[email]" id="email"></li>
+
+						</ul>
+
+					</div>
+
+					<div class="form-r">
+
+                        <textarea cols="30" placeholder="您的需求" data-animate="fadeInRight" class="animated"
+								  name="info[content]" id="content"></textarea>
+
+					</div>
+
+					<div class="c"></div>
+
+					<div class="tc">
+
+						<input type="submit" class="sub" value="提交信息" name="dosubmit" id="dosubmit">
+
+					</div>
+
+				</form>
+
+			</div>
+
+		</div>
+
+		<!-- /.wp -->
+
+	</div>
+
+	<!-- /.contact-i -->
+
+	<div id="fd-bg">
+
+		<div class="wp">
+
+			<div class="fd-l">
+
+				<p><img src="statics/images/fd_logo.png" alt=""></p>
+
+				<p><img src="statics/images/fd_txt.png" alt=""></p>
+
+				<div class="txt">
+
+					互联网创意团队，信达互联为您提供网站建设、手机站建设、微信定制开发、APP定制开发，网络营销等服务。
+				</div>
+
+			</div>
+
+			<div class="fd-c">
+
+				<ul class="ul-add">
+
+					<li><span>北京总部</span>地址：北京市海淀区中关村南大街甲6号铸诚大厦A座5层511室</li>
+
+					<li><span>上海</span>地址：上海市嘉定区宝安公路2999弄东方慧谷22号楼21层</li>
+
+				</ul>
+
+			</div>
+
+			<div class="fd-r">
+
+				<dl>
+
+					<dt>联系我们</dt>
+
+					<dd>
+
+						<p>
+							<span class="tel">010-51581410</span>
+							<em>9:00-22:00</em>
+						</p>
+
+						<p>
+							<span class="wx">微信公众号信达互联</span>
+                            <span class="wb">
+                                微博
+                                <a href="http://weibo.com/5311732388/manage" target="_blank">
+									<b>
+										+
+									</b>
+									关注
+								</a>
+                            </span>
+						</p>
+
+						<p>
+							<img alt="" src="statics/images/20160531035000128.jpg" style="height: 77px; width: 77px"/>
+							<img alt="" src="statics/images/20160531041450259.png" style="height: 77px; width: 77px"/>
+						</p>
+
+					</dd>
+
+				</dl>
+
+			</div>
+
+			<div class="c"></div>
+
+		</div>
+
+	</div>
+
+	<!-- /.wp -->
+
+	<div class="fd-copy">
+
+		<div class="wp">
+
+			<p>信达互联&copy;2011-2016 | www.cindanet.com 京ICP备11033906号 京公网安备11010802008619号 &nbsp; <a
+					href="/" target="_blank">怀旧版</a>
+				<!--<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F65ad656697741924900dc453c5a4c6f8' type='text/javascript'%3E%3C/script%3E")) </script>
+                <script type="text/javascript">
+                    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F65ad656697741924900dc453c5a4c6f8' type='text/javascript'%3E%3C/script%3E")); </script>
+                <script type="text/javascript" charset="utf-8" async
+                        src="http://lxbjs.baidu.com/lxb.js?sid=9031132"></script>-->
+			</p>
+
+		</div>
+
+	</div>
+
+	<!-- /.fd-copy -->
+
+</div>
+<!--禁用鼠标右击和选中页面内容-->
+<!--<script>
+    document.oncontextmenu = new Function("event.returnValue=true");
+    document.onselectstart = new Function("event.returnValue=true");
+</script>
+<script>
+    document.oncontextmenu = function (e) {
+        if (e && e.button == 2 && e.preventDefault)
+            e.preventDefault();
+        else
+            window.event.returnValue = true;
+    }
+
+</script>-->
+
+<!--<script>
+    document.oncontextmenu = new Function("event.returnValue=false");
+    document.onselectstart = new Function("event.returnValue=false");
+</script>
+<script>
+    document.oncontextmenu = function (e) {
+        if (e && e.button == 2 && e.preventDefault)
+            e.preventDefault();
+        else
+            window.event.returnValue = false;
+    }
+
+</script>-->
+<!--<script type="text/javascript" src="statics/js/lib.js"></script>-->
+<script type="text/javascript" src="statics/js/lib.js"></script>
+<script type="text/javascript" src="statics/js/svg.js"></script>
+<script src="statics/js/easing.js"></script>
+<script src="statics/js/ScrollMagic.js"></script>
+<script>
+	$(window).resize(function () {
+		ss();
+	});
+
+	ss();
+
+	function ss() {
+		var myVideo = document.getElementsByTagName('video')[0];
+		var w = $(window).width();
+		if (w > 1024) {
+			myVideo.play();
+		}
+		else {
+
+			myVideo.pause();
+		}
+
+	}
+</script>
+</body>
+
+</html>

@@ -1,0 +1,440 @@
+/*home开始*/
+#home {
+    background-color: #1c202b;
+    height: 643px;
+    background: url("../imgs/MEEA-images/bg-header.jpg");
+    background-size: 100% 100%;
+}
+
+.div-align-center {
+    height: 618px;
+    text-align: center;
+    padding-top: 180px;
+
+}
+
+.div-align-center em img {
+    max-width: 335px;
+}
+
+.div-align-center h1 {
+    margin-top: 30px;
+    height: 80px;
+    /*font-size: 38px;*/
+    /*line-height: 40px;*/
+    color: #FFFFFF;
+    font: 700 38px/80px "Microsoft YaHei";
+}
+
+.div-align-center p {
+    margin-top: 0px;
+    color: #FFFFFF;
+    font: 700 38px/40px "Microsoft YaHei";
+}
+
+.div-align-center .newave-button {
+    margin: 80px 0 0;
+    padding: 8px 16px 10px;
+    font-size: 13px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    display: inline-block;
+    width: 125px;
+}
+
+/*home结束*/
+/*导航栏开始*/
+.nav {
+    background-color: #FFFFFF;
+    height: 45px;
+    width: 100%;
+}
+
+.nav ul {
+    height: 45px;
+    width: 525px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav ul li {
+    padding: 0 25px;
+    line-height: 45px;
+    float: left;
+    font: 700 16px/45px "Microsoft YaHei";
+}
+
+.nav ul li.nav-logo {
+    width: 65px;
+    height: 65px;
+    background-color: #252935;
+    padding: 0px;
+    background-image: url("../imgs/MEEA-images/logo.png");
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+/*导航结束*/
+
+/*第一部分大图*/
+.i-img {
+    width: 100%;
+}
+
+.i-img img {
+    width: 100%;
+}
+
+/*main开始*/
+
+/*标题统一格式开始*/
+.title-black {
+    padding: 67px 20px;
+    background-color: #1C202B;
+
+}
+#title-1{
+    background-color: rgb(215, 215, 215);
+}
+
+.title-black h1 {
+    font: 700 38px/40px "Microsoft YaHei";
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+
+}
+#title-1 h1{
+    color: #1c202b;
+}
+@keyframes left-to-center {
+    0% {
+
+        left: 500px;
+        transform: skew(0deg,0deg);
+        opacity: 0.1;
+    }
+    40%{
+        left: 40px;
+        transform: skew(-30deg,0deg);
+        opacity: 1;
+        /*text-shadow: 0px 0px 0px #ccc;*/
+
+    }
+    100% {
+        left: 0px;
+        transform: skew(0deg,0deg);
+        /*text-shadow: 2px 2px 1px #ccc;*/
+
+    }
+}
+
+.left-to-center {
+    left: 0px;
+    transform: skew(0deg,0deg);
+    /*text-shadow: 2px 2px 1px #000;*/
+    animation: left-to-center 2s ;
+
+}
+
+
+
+/*标题结束*/
+
+/*标题一下大图*/
+.mask img {
+    width: 300px;
+}
+
+/*count粉丝数*/
+.count {
+    height: 320px;
+    background-image: url("../imgs/MEEA-images/bg-stats.jpg");
+    background-size: 100%;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.flowmeter ul {
+    height: 300px;
+    /*background-color: #666;*/
+    overflow: hidden;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.flowmeter li {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    /*border: 1px solid red;*/
+    list-style: none;
+    float: left;
+    color: white;
+    font: 500 70px/80px "Microsoft YaHei";
+
+}
+
+.flowmeter span {
+
+}
+
+.flowmeter p {
+    font-size: 18px;
+    line-height: 33px;
+    position: relative;
+
+}
+
+@keyframes myfirst {
+    from {
+        transform: rotateY(0deg)
+    }
+    to {
+        transform: rotateY(360deg)
+    }
+}
+
+.flowmeter-icon {
+    animation: myfirst 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes down-up {
+    from {
+        top: 100px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.animation-down-top {
+    animation: down-up 3s;
+}
+/*粉丝数结束*/
+
+/*遮罩部分开始*/
+
+.mask img {
+    width: 335px;
+    height: 240px;
+    background-color: #cccccc;
+}
+
+
+.box-shadow {
+    box-shadow: 3px 3px 2px #888888;
+
+}
+
+.mask li{
+    background-color: #666;
+    float: left;
+    margin: 5px 5px 5px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.mask .mask-icon {
+    background: url("../imgs/MEEA-images/zoom.png") no-repeat;
+    width: 56px;
+    height: 63px;
+    position: absolute;
+    left: 50%;
+    margin-left: -28px;
+    margin-top: 40px;
+    opacity: 0;
+    top: -100px;
+
+}
+.mask h2{
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: 260px;
+    left: 50%;
+    z-index: 1;
+    opacity: 0;
+    font-family: "microsoft yahei";
+}
+
+/*遮罩部分结束*/
+
+/*轮播*/
+
+.wheel {
+	/*border: 1px solid #ccc;*/
+	position: relative;
+	}
+.wheel img{
+    width: 100%;
+    height:780px;
+}
+.screen {
+    width: 100%;
+    height:780px;
+	overflow: hidden;
+	position: relative;
+	}
+.screen ul li {
+    width: 1350px;
+    height:780px;
+	overflow: hidden;
+	float: left;
+    position: relative;
+	}
+.screen ul {
+	position: absolute;
+	left: 0;
+	top: 0px;
+	width: 9999px;
+	}
+.wheel ol {
+	position: absolute;
+	right: 30px;
+	bottom: 50px;
+	line-height: 20px;
+	text-align: center;
+	}
+.wheel ol li {
+	float: left;
+	width: 40px;
+	height: 40px;
+	background: rgba(250, 255, 255, 0.1);
+
+	margin-left: 30px;
+	cursor: pointer;
+	border-radius: 10px;
+	}
+.wheel ol li.current {
+	background: rgba(250, 255, 255, 0.6);
+	}
+#arr {
+	display: none;
+	}
+#arr span {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 5px;
+	top: 50%;
+	margin-top: -20px;
+	background: #000;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-family: '黑体';
+	font-size: 30px;
+	color: #fff;
+	opacity: 0.3;
+	/*border: 1px solid #fff;*/
+	}
+#arr #right {
+	right: 5px;
+	left: auto;
+	}
+
+.feihua{
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+    color: #dedede;
+}
+.feihua i,.feihua em{
+
+    font: 700 32px/40px "黑体";
+    display: block;
+    padding: 30px 50px;
+}
+.feihua p{
+    font: 400 20px/30px "microsoft yahei";
+    padding: 15px 50px;
+}
+
+
+/*轮播图结束*/
+
+.block4 {
+    background-color: rgb(215, 215, 215);
+}
+
+.slogan {
+    margin-top: 70px;
+    font: 400 18px/28px "Microsoft YaHei";
+    text-align: center;
+}
+
+.slogan p {
+
+    margin-bottom: 20px;
+}
+
+.slogan a {
+    font: 700 24px/28px "Microsoft YaHei";
+    display: block;
+    margin: 48px 0;
+    color: rgb(28, 32, 43);
+}
+
+.slogan .slogan-con {
+    font: 700 24px/28px "Microsoft YaHei";
+}
+
+.slogan .slogan-con-s {
+    font-weight: 400;
+}
+
+.message {
+    height: 200px;
+}
+
+.message input {
+    width: 300px;
+    height: 40px;
+    float: left;
+    background-color: rgb(200, 200, 200);
+}
+
+.message textarea {
+    background-color: rgb(200, 200, 200);
+    width: 200px;
+    height: 40px;
+}
+.contact-i .wp{
+    position: relative;
+}
+.return-top{
+    /*border: 1px solid #EDEDED;*/
+    width: 30px;
+    height: 33px;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    bottom: -50px;
+    background-color: rgba(237,237,237,1);
+    z-index: 2;
+}
+.return-top span{
+    display: block;
+    margin: 0px 6px;
+    width: 18px;
+    height: 33px;
+    background-image: url(../imgs/MEEA-images/menu_bottombg.png);
+}
+
+
+
+/*main结束*/
+.contact-i{
+    margin-top: 0;
+}
+

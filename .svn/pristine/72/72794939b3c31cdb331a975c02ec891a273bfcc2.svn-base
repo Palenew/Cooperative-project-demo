@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>追梦者猎头机构</title>
+    <link rel="stylesheet" href="css/dreamer-hr-index-main.css"/>
+    <link rel="stylesheet" href="css/dreamer-hr-index-style.css"/>
+    <script src="jQuery/jquery-1.12.4.js"></script>
+    <script src="js/dreamer-hr-index.js"></script>
+</head>
+<body>
+<div id="windowclint" class="windowclint">
+    <div class="list">
+        <div class="section section1">
+            <!-- 滚屏 第一页-->
+            <!-- 头部-->
+            <div class="header fix-header">
+                <div class="header-bd">
+                    <div class="logo">
+                        <a href="javascript:void(0);" title="">
+                            <img src="imgs/logo.png" height="94" width="183" alt=""></a>
+                    </div>
+                    <div class="header-r">
+                        <div class="top">
+                            <div class="search">
+                                <input type="text" class="text" name="q" id="q" placeholder="搜索.....">
+                                <input type="submit" value="" class="obtn">
+                            </div>
+                            <div class="tel">
+                                <img alt="" src="imgs/20160708034537435.png" style="width: 200px; height: 32px;">
+                            </div>
+                        </div>
+                        <div class="navbar">
+                            <ul class="cl">
+                                <li><a href="javascript:void(0);">首页</a></li>
+                                <li><a href="javascript:void(0);">关于我们</a></li>
+                                <li><a href="javascript:void(0);">业务介绍</a></li>
+                                <li><a href="javascript:void(0);">事业群介绍</a></li>
+                                <li><a href="javascript:void(0);">成功案例</a></li>
+                                <li><a href="javascript:void(0);">新闻资讯</a></li>
+                                <li><a href="javascript:void(0);">加入我们</a></li>
+                                <li><a href="javascript:void(0);">联系我们</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 轮播图-->
+            <div class="flexslider-index" style="height: 535px;">
+                <div id="screen" class="flex-viewport" style="overflow: hidden; position: relative;">
+                    <ul id="slides" class="slides" style="width: 1200%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+                        <li style="height: 535px; width: 1366px; float: left; display: block; background: url('imgs/slider1.jpg') 50% 0px no-repeat;"
+                            class="flex-active-slide"></li>
+                        <li style="height: 535px; width: 1366px; float: left; display: block; background: url('imgs/slider2.jpg') 50% 0px no-repeat;"></li>
+                        <li style="height: 535px; width: 1366px; float: left; display: block; background: url('imgs/slider3.jpg') 50% 0px no-repeat;"
+                            class=""></li>
+                        <li style="height: 535px; width: 1366px; float: left; display: block; background: url('imgs/slider4.jpg') 50% 0px no-repeat;"
+                            class=""></li>
+                    </ul>
+                </div>
+                <ol id="paging" class="flex-control-nav flex-control-paging">
+                    <li><a class="flex-active"></a></li>
+                    <li><a class=""></a></li>
+                    <li><a class=""></a></li>
+                    <li><a class=""></a></li>
+                </ol>
+                <div class="hd">
+                    <a class="arrow next" id="next"></a>
+                    <a class="arrow prev prevStop" id="prev"></a>
+                </div>
+            </div>
+            <a href="#page2" id="downArr"></a>
+        </div>
+        <div class="section section2">
+            <div class="fp-tableCell" style="height: 620px;">
+                <div class="index-hd">
+                    <span class="en">WHAT WE CAN DO</span>
+                    <span class="ch">我们做什么！</span>
+                </div>
+                <div class="picScroll-left">
+                    <div class="hd">
+                        <a class="arrow next"></a>
+                        <a class="arrow prev prevStop"></a>
+                    </div>
+                    <div class="bd">
+                        <div class="business">
+                            <div class="tempWrap" style="overflow:hidden; position:relative; width:1100px">
+                                <div class="tempWrap" style="overflow:hidden; position:relative; width:1100px">
+                                    <ul class="cl" style="width: 2200px; left: 0px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
+                                        <li style="float: left; width: 220px;" class="">
+                                            <div class="pic">
+                                                <a href="javascript:void(0);">
+                                                    <img src="imgs/20160122105404553.png" height="136" width="136"></a></div>
+                                            <div class="title">标准猎头服务</div>
+                                            <!--<div class="num">01</div>-->
+                                            <a href="javascript:void(0);" class="more">了解详情</a>
+                                            <div class="desc"><br>...</div>
+                                        </li>
+                                        <li style="float: left; width: 220px;" class="">
+                                            <div class="pic">
+                                                <a href="javascript:void(0);">
+                                                    <img src="imgs/20160122105404553.png" height="136" width="136">
+                                                </a>
+                                            </div>
+                                            <div class="title">高端猎头服务</div>
+                                            <!--<div class="num">02</div>-->
+                                            <a href="javascript:void(0);" class="more">了解详情</a>
+                                            <div class="desc"><br>...</div>
+                                        </li>
+                                        <li style="float: left; width: 220px;" class="">
+                                            <div class="pic">
+                                                <a href="javascript:void(0);">
+                                                    <img src="imgs/20160122105421306.png" height="136" width="136">
+                                                </a>
+                                            </div>
+                                            <div class="title">定向猎取服务</div>
+                                            <!--<div class="num">03</div>-->
+                                            <a href="javascript:void(0);" class="more">了解详情</a>
+                                            <div class="desc"><br>...</div>
+                                        </li>
+                                        <li class="" style="float: left; width: 220px;">
+                                            <div class="pic">
+                                                <a href="javascript:void(0);">
+                                                    <img src="imgs/20160122105433325.png" height="136" width="136">
+                                                </a>
+                                            </div>
+                                            <div class="title">人才测评服务</div>
+                                            <!--<div class="num">04</div>-->
+                                            <a href="javascript:void(0);"
+                                               class="more">了解详情</a>
+
+                                            <div class="desc"><br>...</div>
+                                        </li>
+                                        <li style="float: left; width: 220px;">
+                                            <div class="pic">
+                                                <a href="javascript:void(0);">
+                                                    <img src="imgs/20160122105404553.png" height="136" width="136">
+                                                </a>
+                                            </div>
+                                            <div class="title">人才背景调查</div>
+                                            <!--<div class="num">05</div>-->
+                                            <a href="javascript:void(0);" class="more">了解详情</a>
+                                            <div class="desc"><br>...</div>
+                                        </li>
+                                        <li style="float: left; width: 220px;">
+                                            <div class="pic">
+                                                <a href="javascript:void(0);">
+                                                    <img src="imgs/20160122105404553.png" height="136"width="136">
+                                                </a>
+                                            </div>
+                                            <div class="title">薪酬调研报告</div>
+                                            <!--<div class="num">06</div>-->
+                                            <a href="javascript:void(0);" class="more">了解详情</a>
+                                            <div class="desc"><br>...</div>
+                                        </li>
+                                        <li style="float: left; width: 220px;">
+                                            <div class="pic">
+                                                <a href="javascript:void(0);">
+                                                    <img src="imgs/20160122105421306.png" height="136" width="136">
+                                                </a>
+                                            </div>
+                                            <div class="title">辅助性尽职调查</div>
+                                            <!--<div class="num">07</div>-->
+                                            <a href="javascript:void(0);" class="more">了解详情</a>
+                                            <div class="desc"><br>...</div>
+                                        </li>
+                                        <li style="float: left; width: 220px;">
+                                            <div class="pic">
+                                                <a href="javascript:void(0);">
+                                                    <img src="imgs/20160122105433325.png" height="136" width="136">
+                                                </a>
+                                            </div>
+                                            <div class="title">其他资源信息整合</div>
+                                            <!--<div class="num">08</div>-->
+                                            <a href="javascript:void(0);" class="more">了解详情</a>
+                                            <div class="desc"><br>...</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section3">
+            <div class="fp-tableCell" style="height: 620px;">
+                <div class="index-hd">
+                    <span class="en">BUSINESS GROPE INTRODUCTION</span>
+                    <span class="ch">事业群介绍</span>
+                </div>
+                <div class="career">
+                    <ul class="cl">
+
+                        <li>
+                            <a class="box"href="javascript:void(0);">
+                                <span class="pic pic-item1"></span>
+                                <span class="bt">IT/互联网</span>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a class="box"
+                               href="javascript:void(0);">
+                                <span class="pic pic-item2"></span>
+                                <span class="bt">电子/通信/硬件</span>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a class="box"
+                               href="javascript:void(0);">
+                                <span class="pic pic-item3"></span>
+                                <span class="bt">能源/化工/环保</span>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a class="box"
+                               href="javascript:void(0);">
+                                <span class="pic pic-item4"></span>
+                                <span class="bt">医药/医疗健康/医疗器械</span>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a class="box"
+                               href="javascript:void(0);">
+                                <span class="pic pic-item5"></span>
+                                <span class="bt">金融</span>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a class="box"
+                               href="javascript:void(0);">
+                                <span class="pic pic-item6"></span>
+                                <span class="bt">广告/传媒/公关</span>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a class="box"
+                               href="javascript:void(0);">
+                                <span class="pic pic-item7"></span>
+                                <span class="bt">教育/培训/文化产业</span>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a class="box"
+                               href="javascript:void(0);">
+                                <span class="pic pic-item8"></span>
+                                <span class="bt">房地产/建筑/物业</span>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a class="box"
+                               href="javascript:void(0);">
+                                <span class="pic pic-item9"></span>
+                                <span class="bt">消费品</span>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a class="box"
+                               href="javascript:void(0);">
+                                <span class="pic pic-item10"></span>
+                                <span class="bt">汽车/机械/制造</span>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a class="box"
+                               href="javascript:void(0);">
+                                <span class="pic pic-item11"></span>
+                                <span class="bt">交通/贸易/物流</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="box" href="javascript:void(0);">
+                                <span class="more">...</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section section4">
+            <div class="fp-tableCell" style="height: 620px;">
+                <div class="index-hd">
+                    <span class="en">NEWS</span>
+                    <span class="ch">新闻资讯</span>
+                </div>
+                <div class="index-news-list">
+                    <ul class="cl">
+                        <li>
+
+                            <div class="pic">
+                                <a href="javascript:void(0);">
+                                    <img src="imgs/thumb_400_300_20160309075233426.jpg" height="172" width="302"
+                                    alt="">
+                                </a>
+                            </div>
+                            <div class="title">
+                                <a href="javascript:void(0);">高级猎头顾问（合伙人方向）</a>
+                            </div>
+                            <div class="desc">岗位职责：协助合伙人制定季度、年度指标,带领团队完成猎头业务开拓、项目执行和收款等全部工作，完成回款任务。1、与客户和候选人保持良好</div>
+                            <a href="javascript:void(0);" class="more">READ
+                                MORE</a>
+                        </li>
+                        <li>
+
+                            <div class="pic">
+                                <a href="javascript:void(0);">
+                                    <img src="imgs/20160221105341212.png" height="172" width="302" alt=""></a>
+                            </div>
+                            <div class="title">
+                                <a href="javascript:void(0);">追梦者猎头2016年：重金+股</a>
+                            </div>
+                            <div class="desc">未来，我们将要把追梦者打造成全球知名的专业猎头公司，希望我们的追梦人能遍布全球，把追梦者的企业文化传递到世界！</div>
+                            <a href="javascript:void(0);" class="more">READ
+                                MORE</a>
+                        </li>
+
+                    </ul>
+                    <a href="javascript:void(0);" class="news-more">READ MORE</a>
+                </div>
+            </div>
+        </div>
+        <div class="section section5">
+            <div class="fp-tableCell" style="height: 620px;">
+                <div class="index-hd">
+                    <span class="en">PARTNERSHIP</span>
+                    <span class="ch">合作伙伴</span></div>
+                <div class="panter">
+                    <img alt="" height="414" src="imgs/in_hz_pic.png" width="1048">
+                    <a href="" class="more"></a>
+                </div>
+            </div>
+        </div>
+        <div class="section section6">
+            <div class="fp-tableCell" style="height: 620px;">
+                <!-- 底部-->
+                <div class="footer">
+                    <div class="footer-bd">
+                        <div class="code">
+                            <img alt="" src="imgs/20160309073159800.png" style="width: 200px; height: 200px;">
+                        </div>
+                        <div class="footer-info">
+                            <div class="tel">服务热线：400-900-9796</div>
+                            <ul class="cl">
+                                <ul>
+                                    <li><strong>追梦者（北京）人力资源有限公司</strong></li>
+                                    <li>邮编：100024</li>
+                                    <li>联系电话：400-900-9796</li>
+                                    <li>网址：www.dreamer-hr.com</li>
+                                    <li>地址：北京市朝阳区双惠苑甲5号金隅可乐大厦B座201</li>
+                                    <li>Copyright2008-2015 追梦者猎头机构 版权所有</li>
+                                    <li>邮箱：dreamer@dreamer-hr.com</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ul id="indexPage" class="indexPage"></ul>
+</div>
+</body>
+</html>

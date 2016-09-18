@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>天岳事务律师所</title>
+    <link rel="stylesheet" href="css/tianyue-base.css"/>
+    <link rel="stylesheet" href="css/tianyue-main.css"/>
+    <script src="jQuery/jquery-1.12.4.js"></script>
+    <script src="js/tianyue-main.js"></script>
+</head>
+<body class="box" style="background-color:#ccc">
+ <div class="header clearfix">
+     <div class="header-top"></div>
+     <div class="header-bot">
+         <div class="header-bot-logo"><img src="imgs/tianyue-images/logo.png" alt="天岳"/></div>
+         <div class="header-bot-right">
+             <ul class="ul-lists">
+                 <li class="change">
+                     <a href="#">首页</a>
+                     <div class="ul-lists-pubic"></div>
+                     <div class="ul-lists-show">
+                         <ul>
+                             <li><a href="#">天岳简介</a></li>
+                             <!--<li><a href="#">天岳简介</a></li>-->
+                             <!--<li><a href="#">天岳简介</a></li>-->
+                             <!--<li><a href="#">天岳简介</a></li>-->
+                         </ul>
+                     </div>
+                 </li>
+                 <li class="change">
+                     <a href="#">关于天岳</a>
+                     <div class="ul-lists-pubic"></div>
+                     <div class="ul-lists-show">
+                         <ul>
+                             <li><a href="#">天岳宗旨</a></li>
+                             <li><a href="#">天岳文化</a></li>
+                             <li><a href="#">天岳优势</a></li>
+                             <!--<li><a href="#">天岳简介</a></li>-->
+                         </ul>
+                     </div>
+                 </li>
+                 <li class="change">
+                     <a href="#">新闻资讯</a>
+                     <div class="ul-lists-pubic"></div>
+                     <div class="ul-lists-show">
+                         <ul>
+                             <li><a href="#">天岳动态</a></li>
+                             <li><a href="#">热点时评</a></li>
+                             <li><a href="#">金融信息</a></li>
+                             <li><a href="#">法律咨询</a></li>
+                         </ul>
+                     </div>
+                 </li>
+                 <li class="change">
+                     <a href="#">专业领域</a>
+                     <div class="ul-lists-pubic"></div>
+                     <div class="ul-lists-show">
+                         <ul>
+                             <li><a href="#">金融专项法律服务</a></li>
+                             <li><a href="#">诉讼仲裁法律服务</a></li>
+                             <li><a href="#">公司法律服务</a></li>
+                             <li><a href="#">其它法律服务</a></li>
+                         </ul>
+                     </div>
+                 </li>
+                 <li class="change">
+                     <a href="#">天岳团队</a>
+                     <div class="ul-lists-pubic"></div>
+                     <div class="ul-lists-show">
+                         <ul>
+                             <li><a href="#">合伙人</a></li>
+                             <li><a href="#">专职律师</a></li>
+                             <li><a href="#">实习律师</a></li>
+                             <li><a href="#">专家咨询</a></li>
+                             <li><a href="#">行政助理</a></li>
+                             <li><a href="#">律师助理</a></li>
+                         </ul>
+                     </div>
+                 </li>
+                 <li class="change">
+                     <a href="#">天岳研究</a>
+                     <div class="ul-lists-pubic"></div>
+                     <div class="ul-lists-show">
+                         <ul>
+                             <li><a href="#">天岳著作</a></li>
+                             <li><a href="#">律师文集</a></li>
+                             <li><a href="#">学习园地</a></li>
+                             <li><a href="#">天岳博客</a></li>
+                         </ul>
+                     </div>
+                 </li>
+                 <li class="change">
+                     <a href="#">客户风采</a>
+                     <div class="ul-lists-pubic"></div>
+                     <div class="ul-lists-show">
+                         <ul>
+                             <li><a href="#">客户风采</a></li>
+                             <!--<li><a href="#">天岳简介</a></li>-->
+                             <!--<li><a href="#">天岳简介</a></li>-->
+                             <!--<li><a href="#">天岳简介</a></li>-->
+                         </ul>
+                     </div>
+                 </li>
+                 <li class="change">
+                     <a href="#">联系我们</a>
+                     <div class="ul-lists-pubic"></div>
+                     <div class="ul-lists-show">
+                         <ul>
+                             <li><a href="#">练习方式</a></li>
+                             <li><a href="#">加盟天岳</a></li>
+                             <!--<li><a href="#">天岳简介</a></li>-->
+                             <!--<li><a href="#">天岳简介</a></li>-->
+                         </ul>
+                     </div>
+                 </li>
+             </ul>
+         </div>
+     </div>
+ </div>
+ <div id="div1" class="clearfix">
+     <ul id="div1-uls">
+         <li><img src="imgs/tianyue-images/1.jpg" width="100%" height="736"/></li>
+         <li><img src="imgs/tianyue-images/2.jpg" width="100%" height="736"/></li>
+         <li><img src="imgs/tianyue-images/3.jpg" width="100%" height="736"/></li>
+         <li><img src="imgs/tianyue-images/4.jpg" width="100%" height="736"/></li>
+         <li><img src="imgs/tianyue-images/1.jpg" width="100%" height="736"/></li>
+     </ul>
+     <ol id="div1-ols">
+         <li>1</li>
+         <li>2</li>
+         <li>3</li>
+         <li>4</li>
+     </ol>
+ </div>
+<div id="main-text" style="background-color: black"><p>客户风采</p></div>
+  <div id="mian-lists" class="clearfix">
+      <ul class="main-ul-lists">
+          <li><img src="imgs/tianyue-images/5.jpg" alt=""/></li>
+          <li><img src="imgs/tianyue-images/6.jpg" alt=""/></li>
+          <li><img src="imgs/tianyue-images/7.jpg" alt=""/></li>
+          <li><img src="imgs/tianyue-images/8.jpg" alt=""/></li>
+          <li><img src="imgs/tianyue-images/9.jpg" alt=""/></li>
+          <li><img src="imgs/tianyue-images/10.jpg" alt=""/></li>
+          <li><img src="imgs/tianyue-images/11.jpg" alt=""/></li>
+          <li><img src="imgs/tianyue-images/12.jpg" alt=""/></li>
+          <li><img src="imgs/tianyue-images/13.jpg" alt=""/></li>
+          <li><img src="imgs/tianyue-images/14.jpg" alt=""/></li>
+      </ul>
+  </div>
+ <div id="showpic" style="background-color: #ccc"><p>天岳介绍</p></div>
+ <div class="showpic clearfix">
+     <ul>
+         <li class="pic1">
+             <h3 style="color:#fff">天岳宗旨</h3>
+             <p style="color:#fff">自成立以来，天岳始终坚持以人为本、精诚合作、务实创新、追求卓越的服务宗旨，力求以最高的服务水准、精湛的专业素养和勤勉的服务态度，为国内外客户提供全面、及时、专业、高效、优质的法律服务。</p>
+             <div class="left"></div>
+             <div class="right"></div>
+             <div class="top"></div>
+             <div class="bottom"></div>
+         </li>
+         <li class="pic2">
+             <h3>天岳服务</h3>
+             <p style="color:#FFF">天岳认识到，高效的团队合作对提高事务所的竞争力和服务质量至关重要。基于这些认识，天岳通过制度化的安排，组建多元化的诉讼和非诉团队，各有分工、精诚合作，志在为客户提供最优质的法律服务。<br></p>
+             <div class="left"></div>
+             <div class="right"></div>
+             <div class="top"></div>
+             <div class="bottom"></div>
+         </li>
+         <li class="pic3">
+             <h3 style="color:white">天岳使命：</h3>
+             <p>我们的使命：让生活中一切问题变的简单，一切问题在我们手中解决，相信我们，还你一份满意答卷。</p>
+             <div class="left"></div>
+             <div class="right"></div>
+             <div class="top"></div>
+             <div class="bottom"></div>
+         </li>
+         <li class="pic4">
+             <h3 style="color:#FFF">天岳精神</h3>
+             <p style="color:#FFF">志存高远，胸怀天下，追求卓越，自强不息，臻于至善。</p>
+             <div class="left"></div>
+             <div class="right"></div>
+             <div class="top"></div>
+             <div class="bottom"></div>
+         </li>
+         <li class="pic5">
+             <h3 >天岳文化</h3>
+             <p style="color:#FFF;">“天岳”二字取自《诗·大雅·崧高》：“崧高维岳，骏极于天”。又，《崧高》诗言西周的申伯“资兼文武，望重屏藩”，天岳律师事务所化《崧高》诗为“天岳”二字，意在争做天地之嵩岳，中流之砥柱，成为国家法治的藩篱干城，客户利益的坚强维护者。</p>
+             <div class="left"></div>
+             <div class="right"></div>
+             <div class="top"></div>
+             <div class="bottom"></div>
+         </li>
+         <li class="pic6">
+             <h3 style="color:#fff;">天岳团队</h3>
+             <p style="color:#fff;">天岳团队来自好多名牌大学法律专业，我们有一支既懂法律又懂教育的实施团队，对互联网在教育行业的应用有着丰富的经验。根据机构需要派出完美的咨询地团队为企业提供服务。核心队员平均工作经验10年以上，对教育一线工作。</p>
+             <div class="left"></div>
+             <div class="right"></div>
+             <div class="top"></div>
+             <div class="bottom"></div>
+         </li>
+
+     </ul>
+ </div>
+ <div id="footer" style="background-color: #ccc"><p>专业领域</p></div>
+ <div class="tfooter clearfix">
+     <ul class="tfooter-ullist">
+         <li class="spl1"><span><img src="imgs/tianyue-images/bg-l.png" alt=""/></span><img src="imgs/tianyue-images/01.PNG"alt=""/><span><img
+                 src="imgs/tianyue-images/bg-r.png" alt=""/></span></li>
+         <li class="spl2"><span><img src="imgs/tianyue-images/bg-l.png" alt=""/></span><img src="imgs/tianyue-images/02.PNG" alt=""/><span><img
+                 src="imgs/tianyue-images/bg-r.png" alt=""/></span></li>
+         <li class="spl3"><span><img src="imgs/tianyue-images/bg-l.png" alt=""/></span><img src="imgs/tianyue-images/03.PNG" alt=""/><span><img
+                 src="imgs/tianyue-images/bg-r.png" alt=""/></span></li>
+         <li class="spl4"><span><img src="imgs/tianyue-images/bg-l.png" alt=""/></span><img src="imgs/tianyue-images/04.PNG" alt=""/><span><img
+                 src="imgs/tianyue-images/bg-r.png" alt=""/></span></li>
+     </ul>
+ </div>
+  <div id="last-footer">
+      <img src="imgs/tianyue-images/footer.JPG"  alt=""/>
+      <div class="btn"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="statics/css/cui.css"/>
+    <link rel="stylesheet" href="statics/css/style.css"/>
+    <link rel="stylesheet" href="css/MEEA-comment.css"/>
+    <link rel="stylesheet" href="css/MEEA.css"/>
+
+
+    <title>MEEA-移动自创业联盟</title>
+    <script src="jQuery/jquery-1.12.4.js"></script>
+    <script src="js/MEEA.js"></script>
+
+
+</head>
+<body>
+<!--题头-->
+<div id="home">
+    <!--版心-->
+    <div class="w">
+
+        <div class="div-align-center">
+            <em>
+                <img src="imgs/MEEA-images/logo_head.png" alt=""/>
+            </em>
+
+            <h1>Mobile entrepreneurial era is coming</h1>
+
+            <p>移动自创业时代来临</p>
+            <a href="#" class="newave-button">Find out more</a>
+
+        </div>
+
+    </div>
+
+</div>
+<!--home结束 题头结束-->
+
+<!--导航开始-->
+<div class="nav" id="nav">
+    <!--通栏-->
+    <div class="w">
+        <ul>
+            <li class="menu" id="menu1">
+                <a href="javascript:;" return false>平台概述</a>
+            </li>
+
+            <li class="menu" id="menu2">
+                <a href="javascript:;" return false>产品展示</a>
+            </li>
+            <li class="nav-logo" id="navLogo">
+                <a href="http://www.meea.net/#home" return false></a>
+            </li>
+            <li class="menu" id="menu3">
+                <a href="javascript:;" return false>交互优势</a>
+            </li>
+
+            <li class="menu" id="menu4">
+                <a href="javascript:;" return false>加入我们</a>
+            </li>
+
+        </ul>
+
+    </div>
+</div>
+<!--导航结束-->
+
+<!--main开始-->
+<div class="main" id="main">
+    <!--第一部分 -->
+    <div id="block1" class="block1">
+        <!--标题一-->
+        <div class="title-black" id="title-1">
+            <h1 class="left-to-center">
+                Redefining individual entrepreneurship
+                <br/>
+                重新定义创业
+            </h1>
+
+        </div>
+
+        <!--标题一下大图-->
+        <div class="i-img">
+            <img src="imgs/MEEA-images/fengchao1.jpg" alt=""/>
+        </div>
+
+        <!--粉丝数-->
+        <div class="count">
+            <div class="flowmeter">
+                <ul>
+                    <li class="class-name">
+                        <div class="flowmeter-log flowmeter-icon">
+                            <img src="imgs/MEEA-images/icon_concern.png" alt=""/>
+                        </div>
+                        <span class="flowmer-num1">0</span>
+
+                        <p class="animation-down-top">web site traffic <br/> 网站流量</p>
+                    </li>
+                    <li class="class-name">
+                        <div class="flowmeter-log flowmeter-icon">
+                            <img src="imgs/MEEA-images/icon_stars.png" alt=""/>
+                        </div>
+                        <span class="flowmer-num2">0</span>
+
+                        <p class="animation-down-top">web site traffic <br/> 网站流量</p>
+                    </li>
+                    <li class="class-name">
+                        <div class="flowmeter-log flowmeter-icon">
+                            <img src="imgs/MEEA-images/icon_members.png" alt=""/>
+                        </div>
+                        <span class="flowmer-num3">0</span>
+
+                        <p class="animation-down-top">web site traffic <br/> 网站流量</p>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <!--第一部分结束-->
+
+    <!--第二部分-->
+    <div id="block2" class="block2">
+        <!--标题二-->
+        <div class="title-black" id="title-2">
+            <h1 class="left-to-center">
+                Ultimate product settled
+                <br/>
+                极致产品入驻
+
+            </h1>
+        </div>
+
+        <!--多图 排他 遮罩特效-->
+        <div class="mask">
+            <ul>
+                <li>
+                    <div class="mask-icon"></div>
+                    <h2>Apple Watch</h2>
+                    <img src="imgs/MEEA-images/001.jpg" alt=""/>
+
+                </li>
+                <li>
+                    <div class="mask-icon"></div>
+                    <h2>Fineck 智能项链</h2>
+                    <img src="imgs/MEEA-images/002.jpg" alt=""/>
+
+                </li>
+                <li>
+                    <div class="mask-icon"></div>
+                    <h2>GALACARD智能名片</h2>
+                    <img src="imgs/MEEA-images/003.jpg" alt=""/>
+
+                </li>
+                <li>
+                    <div class="mask-icon"></div>
+                    <h2>智能手环</h2>
+                    <img src="imgs/MEEA-images/004.jpg" alt=""/>
+
+                </li>
+                <li>
+                    <div class="mask-icon"></div>
+                    <h2>比巴智能早教WIFI音像</h2>
+                    <img src="imgs/MEEA-images/005.jpg" alt=""/>
+
+                </li>
+                <li>
+                    <div class="mask-icon"></div>
+                    <h2>丁盯智能门磁</h2>
+                    <img src="imgs/MEEA-images/006.jpg" alt=""/>
+
+                </li>
+                <li>
+                    <div class="mask-icon"></div>
+                    <h2>UIXOO</h2>
+                    <img src="imgs/MEEA-images/007.jpg" alt=""/>
+
+                </li>
+                <li>
+                    <div class="mask-icon"></div>
+                    <h2>微插座</h2>
+                    <img src="imgs/MEEA-images/008.jpg" alt=""/>
+
+                </li>
+                <li>
+                    <div class="mask-icon"></div>
+                    <h2>小米盒子</h2>
+                    <img src="imgs/MEEA-images/009.jpg" alt=""/>
+
+                </li>
+                <li>
+                    <div class="mask-icon"></div>
+                    <h2>小智超级音像</h2>
+                    <img src="imgs/MEEA-images/010.jpg" alt=""/>
+
+                </li>
+                <li>
+                    <div class="mask-icon"></div>
+                    <h2>55度杯</h2>
+                    <img src="imgs/MEEA-images/011.jpg" alt=""/>
+
+                </li>
+                <li>
+                    <div class="mask-icon"></div>
+                    <h2>稀有森林蜂蜜</h2>
+                    <img src="imgs/MEEA-images/012.jpg" alt=""/>
+
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+    <!--第二部分结束-->
+
+    <!--第三部分-->
+    <div id="block3" class="block3">
+        <!--标题三-->
+        <div class="title-black" id="title-3">
+            <h1 class="left-to-center">
+                Pioneering interactive advantage
+                <br/>
+                创业交互优势
+            </h1>
+        </div>
+
+        <!--轮播图-->
+        <div class="wheel" id="wheel">
+
+            <div class="screen">
+                <ul>
+                    <li>
+                        <img src="imgs/MEEA-images/box01.jpg"/>
+                        <div class="feihua"><i>无需成本 瞬间开店</i><em>蜂巢商店—全国首个微零售移动自创业交互系统</em>
+                            <p>0元开店，无需任何费用，零投入拥有蜂巢商铺</p>
+                            <p>1分钟开店，极简流程，打破繁琐，开店就是这么简单！</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imgs/MEEA-images/box02.jpg"/>
+                        <div class="feihua"><i>极致产品 无需囤货</i><em>优秀供应链厂商，创新的强势单品</em>
+                            <p>把消费者最需要的产品做到最好，独家供应，领先市场</p>
+                            <p>颠覆想象，爱不释手，超强口碑。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imgs/MEEA-images/box03.jpg"/>
+                        <div class="feihua"><i>疯狂吸粉 自由创业</i><em>让更多的消费者对我们的极致产品欲罢不能！</em>
+                            <p>精选商品、即兴折扣、产品预售、限量体验、主题专场，五大法宝，引入超高流量</p>
+                            <p>咖啡厅、健身房、机场、海边...动动手指，轻松管理，无处不创业！</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imgs/MEEA-images/box04.jpg"/>
+                        <div class="feihua"><i>总部支持 在线培训</i><em>全年在线互动培训，课程内容实时升级，快速掌握专业技能</em>
+                            <p>24x7售后支持，手把手解决问题需求，不怕不会，就怕不问！</p>
+                            <p>有后台，腰杆硬！妈妈再也不用担心我开店了！</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <ol>
+                </ol>
+            </div>
+            <div id="arr">
+                <span id="left">&lt;</span>
+                <span id="right">&gt;</span>
+            </div>
+
+        </div>
+
+    </div>
+    <!--第三部分结束-->
+
+    <!--第四部分开始-->
+    <div id="block4" class="block4">
+        <!--标题四-->
+        <div class="title-black" id="title-4">
+            <h1 class="left-to-center">
+                Entrepreneurship change the future
+                <br/>
+                创业改变未来
+            </h1>
+        </div>
+        <!--标题四结束-->
+
+    </div>
+    <!--第四部分结束-->
+
+</div>
+<!--mian结束-->
+
+<div id="fd">
+    <div class="contact-i">
+        <div class="wp">
+            <div class="tit">
+                <p>错过了股票致富的年代，错过了房地产的辉煌，错过了互联网的黄金年代，错过了淘宝致富的商机，</p>
+                <p>移动互联网正在以惊人的速度发展，</p>
+                <h3>这一次，请不要错过移动自创业的先机！</h3>
+                <h5>010-69075555</h5>
+                <p>加入蜂巢商店，请致电或留言</p>
+            </div>
+
+            <div class="form">
+                <form method="post" action="/index.php?m=formguide&c=index&a=show&formid=14&siteid=1" name="myform"
+                      id="myform">
+                    <div class="form-l">
+                        <ul data-animate="fadeInLeft" class="animated">
+                            <li><input type="text" class="inp" placeholder="联系人" name="info[name]" id="name"></li>
+                            <li><input type="text" class="inp" placeholder="联系电话" name="info[phone]" id="phone"></li>
+                            <li><input type="text" class="inp" placeholder="电子邮箱" name="info[email]" id="email"></li>
+                        </ul>
+                    </div>
+
+                    <div class="form-r">
+                        <textarea cols="30" placeholder="留言" data-animate="fadeInRight" class="animated"
+                                  name="info[content]" id="content"></textarea>
+                    </div>
+
+                    <div class="c"></div>
+
+                    <div class="tc">
+                        <input type="submit" class="sub" value="加入我们" name="dosubmit" id="dosubmit">
+                    </div>
+
+                </form>
+            </div>
+            <div class="return-top">
+                <span id="returnTop"></span>
+            </div>
+        </div>
+        <!-- /.wp -->
+    </div>
+
+    <!-- /.contact-i -->
+    <div id="fd-bg">
+        <div class="wp">
+            <div class="fd-l">
+
+                <p><img src="statics/images/fd_logo.png" alt=""></p>
+                <p><img src="statics/images/fd_txt.png" alt=""></p>
+
+                <div class="txt">
+                    互联网创意团队，信达互联为您提供网站建设、手机站建设、微信定制开发、APP定制开发，网络营销等服务。
+                </div>
+            </div>
+
+            <div class="fd-c">
+                <ul class="ul-add">
+                    <li><span>北京总部</span>地址：北京市海淀区中关村南大街甲6号铸诚大厦A座5层511室</li>
+                    <li><span>上海</span>地址：上海市嘉定区宝安公路2999弄东方慧谷22号楼21层</li>
+                </ul>
+            </div>
+            <div class="fd-r">
+                <dl>
+                    <dt>联系我们</dt>
+                    <dd>
+                        <p>
+                            <span class="tel">010-51581410</span>
+                            <em>9:00-22:00</em>
+                        </p>
+
+                        <p>
+                            <span class="wx">微信公众号信达互联</span>
+                            <span class="wb">
+                                微博
+                                <a href="http://weibo.com/5311732388/manage" target="_blank">
+                                    <b>
+                                        +
+                                    </b>
+                                    关注
+                                </a>
+                            </span>
+                        </p>
+                        <p>
+                            <img alt="" src="statics/images/20160531035000128.jpg" style="height: 77px; width: 77px"/>
+                            <img alt="" src="statics/images/20160531041450259.png" style="height: 77px; width: 77px"/>
+                        </p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="c"></div>
+        </div>
+    </div>
+    <!-- /.wp -->
+    <div class="fd-copy">
+        <div class="wp">
+            <p>信达互联&copy;2011-2016 | www.cindanet.com 京ICP备11033906号 京公网安备11010802008619号 &nbsp; <a
+                    href="/" target="_blank">怀旧版</a>
+                <!--<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F65ad656697741924900dc453c5a4c6f8' type='text/javascript'%3E%3C/script%3E")) </script>
+                <script type="text/javascript">
+                    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F65ad656697741924900dc453c5a4c6f8' type='text/javascript'%3E%3C/script%3E")); </script>
+                <script type="text/javascript" charset="utf-8" async
+                        src="http://lxbjs.baidu.com/lxb.js?sid=9031132"></script>-->
+            </p>
+        </div>
+    </div>
+    <!-- /.fd-copy -->
+</div>
+
+
+<!--北京蜂巢互联科技有限公司 北京市朝阳区广渠东路5号中水电商务大厦15F-->
+<!--备案号：京ICP备14037715号-1-->
+
+</body>
+</html>

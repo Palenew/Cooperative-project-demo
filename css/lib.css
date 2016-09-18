@@ -1,0 +1,159 @@
+/*初始化*/
+body{font-size: 14px;line-height: 1.5;color: #3e3a3a;
+	font-family:"微软雅黑","Microsoft Yahei";overflow-x: hidden !important;
+}
+a{color: #3e3a3a;}
+a:hover{color: #e2353e;}
+input[type="button"],input[type="submit"],input[type="reset"],button{
+	background: none;border:0;outline: 0;cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+img{max-width: 100%;}
+.ani{
+	-o-transition:1s;
+	-ms-transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+	transition:1s;
+}
+
+
+/*布局*/
+.wp{width: 90%;max-width:1450px;margin:0 auto;}
+.wrap{width: 90%;max-width: 1000px;margin: 0 auto;}
+
+/*******************************
+	-------[=背景画布]-------
+********************************/
+#container {position: fixed;height: 100%;width: 100%;z-index:1;overflow: hidden;}
+#output {width: 100%;height: 100%;}
+.canvas{position: absolute;width: 100%;top: 190px;bottom:0;left:0;right: 0;z-index: 2;overflow: hidden;}
+.section{position: relative;}
+
+#dowebok{position: relative;z-index: 3;}
+
+/*******************************
+	-------[=头部]-------
+********************************/
+#hd{position: relative;background-color: #fff;border-bottom: 10px solid #e42338;z-index: 9;}
+.index #hd{position: fixed;left:0;top:0;width: 100%;}
+
+
+/*******************************
+	-------[=导航]-------
+********************************/
+#nav{text-align: center;height: 42px;}
+#nav ul{display: inline-block;position: relative;z-index: 1;}
+#nav li{float: left;line-height: 46px;position: relative;}
+#nav .v1{color: #626262;font-size: 14px;display: block;padding: 0 20px;}
+#nav .logo{width: 77px;height: 63px;padding: 0;}
+
+.m-nav{display: none;position: relative;z-index: 2;}
+.menuBtn{position: absolute;right: 0;top: 0;cursor: pointer;
+	display: block;width: 30px;height: 30px;padding: 6px;
+	transition: .3s;
+	-ms-transition: .3s;
+	-moz-transition: .3s;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+}
+.menuBtn b{display: block;height: 3px;background-color: #e42338;margin: 6px 0;border-radius: 2px;
+    transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+}
+.menuBtn.open{}
+.menuBtn.open b{display: none;margin: 0;position: absolute;left: 10px;top: 50%;width: 30px;}
+.menuBtn.open b:first-child{display: block;
+    transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+}
+.menuBtn.open b:last-child{display: block;
+    transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+}
+
+/*******************************
+	-------[=底部]-------
+********************************/
+#fd{position: fixed;left: 0;right: 0;bottom: 0;padding: 30px 0 40px;
+	text-align: center;font-size: 16px;background-color: #ddddde;/*position: static;*/
+}
+
+
+/*标题*/
+.g-tit1{text-align: center;font-size: 22px;color: #fff;font-weight: normal;margin-bottom: 35px;}
+
+.g-tit2{font-size: 20px;color: #e42338;padding: 0 20px;line-height: 40px;border-bottom: 1px solid #e42338;}
+.g-tit2 em{font-size: 14px;font-family: 'Arial';text-transform: capitalize;display: inline-block;margin-left: 10px;}
+
+/*按钮*/
+.g-btn1{color: #fff;line-height: 30px;font-size: 12px;padding-bottom: 40px;
+	background: url(../images/a-down.png) no-repeat center bottom;
+	position: relative;
+	animation: myanimate 2s linear infinite;
+	-ms-animation: myanimate 2s linear infinite;
+	-moz-animation: myanimate 2s linear infinite;
+	-webkit-animation: myanimate 2s linear infinite;
+	-o-animation: myanimate 2s linear infinite;
+	-o-background-size: auto 25px;
+	-ms-background-size: auto 25px;
+	-moz-background-size: auto 25px;
+	-webkit-background-size: auto 25px;
+	background-size: auto 25px;
+}
+.g-btn1 span{display: inline-block;border: 1px solid #fff;padding: 0 15px;}
+.g-btn1:hover span{background-color: #fff;color: #e2353e;box-shadow: 0 0 5px #000;}
+
+.g-btn2{display: inline-block;/*width: 120px;*/padding: 0 20px;line-height: 2.25;border-radius: 3px;
+	background-color: #e42338;color: #fff;text-align: center;font-size: 16px;
+}
+.g-btn2:hover{color: #fff;background-color: #e42338;}
+
+.bgf{background-color: #fff;}
+.g-more{color: #3e3a3a;line-height: 35px;border-bottom: 1px solid #fff;color: #fff;}
+.g-more:hover{color: #fff;}
+
+@-webkit-keyframes myanimate {
+	0% {top: 0;}
+	25% {top: -2px;}
+	50% {top: 0;}
+	75% { top: 2px;}
+	100% { top: 0;}
+}
+@-moz-keyframes myanimate {
+	0% {top: 0;}
+	25% {top: -2px;}
+	50% {top: 0;}
+	75% { top: 2px;}
+	100% { top: 0;}
+}
+@-ms-keyframes myanimate {
+	0% {top: 0;}
+	25% {top: -2px;}
+	50% {top: 0;}
+	75% { top: 2px;}
+	100% { top: 0;}
+}
+@-o-keyframes myanimate {
+	0% {top: 0;}
+	25% {top: -2px;}
+	50% {top: 0;}
+	75% { top: 2px;}
+	100% { top: 0;}
+}
+@keyframes myanimate {
+	0% {top: 0;}
+	25% {top: -2px;}
+	50% {top: 0;}
+	75% { top: 2px;}
+	100% { top: 0;}
+}
